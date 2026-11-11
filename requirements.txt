@@ -1,0 +1,11 @@
+# Testé avec Python 3.15.2.
+# scikit-learn est figé : le modèle models/model_v1.joblib a été enregistré avec cette version.
+scikit-learn==1.9.1
+joblib>=1.6.0
+numpy>=2.5
+pandas>=3.1
+fastapi>=0.162
+uvicorn>=0.54
+requests>=2.34
+pytest>=9.2
+httpx>=0.28

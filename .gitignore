@@ -1,0 +1,14 @@
+# Environnement Python local (chacun recrée le sien)
+myenv/
+.venv/
+venv/
+
+# Cache des téléchargements Wikipédia (se reconstruit tout seul)
+cache/
+
+# Fichiers temporaires
+__pycache__/
+*.pyc
+.pytest_cache/
+outputs/*.tmp
+.DS_Store

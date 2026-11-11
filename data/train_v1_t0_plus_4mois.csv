@@ -1,0 +1,176 @@
+title,group,t0,base,record_24m,ratio_now,max_ratio,jump_t0,growth_since_t0,volatility,seasonality,label
+Tiger's blood,Arômes & sucre,202308,0,15,25.6,27.08,13.85,6.03,0.28,0.0,Tendance durable
+Cyclamate,Arômes & sucre,202201,839,999,4.95,4.95,2.36,2.76,0.33,-0.21,Tendance durable
+Α-Pinene,Arômes & sucre,202212,50,58,45.51,45.51,6.39,7.61,0.31,0.38,Tendance durable
+Artificial butter flavoring,Arômes & sucre,202309,1039,1249,0.91,5.02,5.17,0.18,1.45,0.25,Buzz
+Aspartame,Arômes & sucre,202306,38260,43803,1.17,3.1,1.73,0.74,0.66,0.1,Buzz
+NutraSweet,Arômes & sucre,202212,1766,2184,0.88,2.71,2.84,0.34,1.05,-0.07,Buzz
+Synsepalum dulcificum,Arômes & sucre,202304,16490,19255,1.19,3.11,2.62,0.45,0.77,-0.32,Buzz
+Isomalt,Arômes & sucre,202111,7498,12980,0.58,1.58,2.33,0.41,0.79,0.48,Buzz
+2-Nonenal,Arômes & sucre,202205,1000,1595,1.08,1.78,2.18,0.83,0.5,0.23,Tendance durable
+Grimace Shake,Boissons,202306,0,0,2459.07,7255.69,36690.0,3.35,1.06,0.0,Buzz
+Prime (drink),Boissons,202301,0,8,3139.05,3385.59,3755.44,5.02,0.21,0.0,Buzz
+Avil Milk,Boissons,202110,0,0,8.11,8.11,92.67,4.38,0.4,0.0,Buzz
+Black water (drink),Boissons,202312,0,41,161.02,161.02,18.41,10.75,0.55,0.0,Tendance durable
+Agua fresca,Boissons,202012,430,491,9.69,9.69,1.72,6.2,0.39,-0.02,Tendance durable
+Pizza dolce di Beridde,Desserts,202303,0,0,8.21,254.29,184.0,2.23,1.89,0.0,Buzz
+Krokan,Desserts,202211,0,0,22.23,121.78,4695.67,0.24,1.26,0.0,Buzz
+Plombir,Desserts,202305,13,24,71.45,71.45,16.27,25.34,0.56,0.47,Tendance durable
+Casatiello,Desserts,202111,0,0,8.52,54.69,2483.67,0.17,1.54,0.0,Buzz
+Blackout cake,Desserts,202303,802,1264,1.57,44.95,60.19,0.04,1.85,0.29,Buzz
+Almond tofu,Desserts,202304,10,19,36.59,36.65,31.82,7.84,0.29,-0.01,Tendance durable
+Moon mist,Desserts,202111,0,0,9.01,9.01,79.0,5.7,0.29,0.0,Tendance durable
+Noodle kugel,Desserts,202109,0,0,13.43,14.37,183.67,3.66,0.18,0.0,Tendance durable
+Ada pradhaman,Desserts,202206,0,48,14.61,14.61,1.54,9.96,0.77,0.0,Tendance durable
+Bisciola,Desserts,202112,0,0,2.17,22.13,1014.0,0.11,1.64,0.0,Buzz
+Snickers salad,Desserts,202006,1964,3676,0.7,1.63,2.63,0.53,0.68,0.51,Buzz
+Cookie salad,Desserts,202111,596,758,1.15,1.27,1.27,0.92,0.24,-0.05,Buzz
+Kansar,Desserts,202312,165,264,2.03,4.45,2.75,0.84,0.5,0.26,Buzz
+Smörgåstårta,Desserts,202112,3196,5111,0.54,1.57,2.78,0.36,0.98,-0.1,Buzz
+Brandy snaps,Desserts,202109,977,2035,1.19,3.24,3.1,0.98,0.72,0.9,Buzz
+Samanu,Desserts,202103,1135,4490,0.43,1.98,5.02,0.25,1.16,0.99,Buzz
+Pumpkin pie,Desserts,202111,3592,15023,0.22,2.08,3.25,0.11,1.53,0.99,Buzz
+Pizza di Pasqua,Desserts,202204,178,1044,0.23,1.87,4.06,0.12,1.52,0.96,Buzz
+Figolla,Desserts,202104,120,664,0.16,1.7,1.81,0.1,1.43,0.78,Buzz
+Selenicereus megalanthus,Fruits tropicaux,202103,8,12,36.79,46.38,127.24,2.07,0.17,0.35,Buzz
+Ensete superbum,Fruits tropicaux,202103,276,497,0.89,1.32,1.32,0.67,0.26,0.6,Buzz
+Bunchosia glandulifera,Fruits tropicaux,202005,238,333,1.19,1.4,1.22,0.97,0.13,0.14,Tendance durable
+China 3 lychee,Fruits tropicaux,202305,744,1172,0.59,1.57,1.37,0.44,0.5,0.38,Buzz
+Passiflora quadrangularis,Fruits tropicaux,202001,97,959,2.07,2.07,1.5,1.38,0.19,-0.48,Buzz
+Ensete ventricosum,Fruits tropicaux,202201,3150,4138,1.2,2.43,3.5,0.57,0.81,0.78,Buzz
+Solanum pimpinellifolium,Fruits tropicaux,202005,828,940,1.17,1.38,1.33,0.95,0.16,0.63,Tendance durable
+Rambutan,Fruits tropicaux,202307,37624,57488,1.25,1.79,1.54,0.95,0.25,0.84,Buzz
+Artocarpus odoratissimus,Fruits tropicaux,202308,2479,3938,1.03,2.06,1.58,0.65,0.43,-0.09,Buzz
+Basil seed,Noix & graines,202305,38,54,127.25,144.44,17.61,11.55,0.4,0.49,Tendance durable
+Bazzini,Noix & graines,202206,20,122,1.44,1.99,1.79,0.8,0.42,0.19,Buzz
+Brazil nut,Noix & graines,202111,33116,42692,0.78,3.03,2.92,0.27,1.15,0.39,Buzz
+Β-Pinene,Arômes & sucre,202212,13,22,15.59,16.01,5.86,9.28,0.34,0.37,Tendance durable
+Oakmoss,Olfactif,202310,256,285,8.66,8.66,1.41,6.83,0.37,0.43,Tendance durable
+Lilial,Olfactif,202201,2042,2250,3.64,5.15,1.45,2.52,0.55,0.05,Buzz
+Phenylacetic acid,Arômes & sucre,202304,4590,5566,0.84,1.27,1.22,0.69,0.3,0.45,Tendance durable
+Grains of paradise,Épices,202310,490,545,13.57,13.57,2.3,6.42,0.45,0.34,Tendance durable
+Alligator pepper,Épices,202004,1774,3142,1.22,1.49,1.27,0.96,0.14,0.39,Buzz
+Zanthoxylum armatum,Épices,202101,621,843,1.34,1.43,1.22,1.1,0.08,0.52,Tendance durable
+Nootkatone,Arômes & sucre,202008,708,980,0.95,4.64,6.15,0.22,1.33,0.2,Buzz
+2-Methylisoborneol,Arômes & sucre,202006,470,584,1.13,1.24,1.24,0.91,0.19,-0.05,Tendance durable
+Sholezard,Desserts,202005,682,883,0.93,1.24,1.31,0.75,0.3,0.41,Tendance durable
+Shikanji,Boissons,202304,4,122,13.07,13.4,168.0,5.71,0.23,0.09,Buzz
+Adobo,Épices,202303,12217,12873,1.24,1.25,1.29,1.03,0.17,-0.12,Tendance durable
+Annatto,Épices,202210,25082,28763,1.18,1.38,1.34,0.93,0.23,0.13,Tendance durable
+Nigella sativa,Épices,202003,35224,41384,1.16,2.05,1.62,0.87,0.38,0.26,Buzz
+Rosa × damascena,Épices,202005,6096,7529,0.99,1.46,1.26,0.78,0.26,0.83,Tendance durable
+Solanum centrale,Épices,202309,450,568,0.88,1.29,1.26,0.7,0.3,0.1,Tendance durable
+Uzazi,Épices,202004,266,407,0.69,1.75,1.67,0.44,0.66,0.28,Tendance durable
+Zanthoxylum acanthopodium,Épices,202001,46,66,8.94,8.94,2.15,4.15,0.24,0.02,Tendance durable
+Perilla frutescens,Noix & graines,202005,5034,5892,1.65,1.65,1.25,1.32,0.03,0.43,Tendance durable
+Avocado,Fruits tropicaux,202311,94374,142775,0.97,1.2,1.2,0.81,0.24,0.46,Buzz
+Crataegus mexicana,Fruits tropicaux,202312,2059,5495,0.39,1.58,1.91,0.29,0.82,0.96,Buzz
+Dacryodes edulis,Fruits tropicaux,202007,2211,3347,0.74,1.5,1.4,0.59,0.41,0.82,Buzz
+Lychee,Fruits tropicaux,202306,55515,83021,0.9,1.5,1.35,0.73,0.31,0.11,Buzz
+Oenocarpus bacaba,Fruits tropicaux,202306,234,302,0.82,2.69,3.32,0.32,1.09,0.2,Buzz
+Solanum sessiliflorum,Fruits tropicaux,202211,434,511,1.08,1.49,1.35,0.86,0.26,-0.2,Tendance durable
+Equal (sweetener),Arômes & sucre,202307,1494,2095,0.63,1.36,1.38,0.47,0.51,-0.06,Tendance durable
+Glycyrrhizin,Arômes & sucre,202009,4112,6474,0.88,2.59,3.73,0.38,1.0,0.56,Buzz
+Saccharin,Arômes & sucre,202101,16936,18759,0.77,1.34,1.56,0.57,0.59,0.24,Tendance durable
+Hojuela,Desserts,202312,287,350,1.01,1.48,1.41,0.76,0.31,0.48,Buzz
+Snow cream,Desserts,202102,758,2149,0.43,1.36,2.18,0.31,1.01,0.78,Buzz
+Syrniki,Desserts,202004,3118,3456,1.01,1.33,1.22,0.83,0.2,-0.14,Tendance durable
+Twisted doughnut,Desserts,202004,574,678,1.17,1.71,1.4,0.85,0.28,0.35,Tendance durable
+Knafeh,Desserts,202108,188,274,61.86,61.86,17.16,5.88,0.23,-0.22,Tendance durable
+Kyiv cake,Desserts,202010,72,251,7.54,7.54,2.96,2.55,0.09,-0.12,Tendance durable
+Coffee cake,Desserts,202005,3510,4696,0.93,1.36,1.29,0.72,0.23,0.25,Buzz
+Torte,Desserts,202310,6270,8713,0.92,1.35,1.3,0.7,0.35,-0.41,Buzz
+Tres leches cake,Desserts,202210,19350,24732,1.09,1.38,1.39,0.85,0.3,0.39,Tendance durable
+Upside-down cake,Desserts,202004,4164,10580,0.41,1.8,1.54,0.27,0.79,0.49,Buzz
+Bourbon ball,Desserts,202312,577,895,0.87,1.5,1.68,0.62,0.49,0.92,Buzz
+Oblaat,Desserts,202001,460,575,1.01,1.25,1.22,0.83,0.22,0.58,Tendance durable
+Szaloncukor,Desserts,202012,424,2491,0.13,1.27,2.96,0.1,1.46,0.99,Buzz
+Sugar plum,Desserts,202012,3415,11508,0.27,1.93,3.57,0.14,1.44,0.99,Buzz
+Turrón,Desserts,202312,6858,12993,0.62,1.46,1.56,0.45,0.57,0.92,Buzz
+Zefir (food),Desserts,202008,3040,3483,1.34,1.86,1.82,0.87,0.41,0.55,Tendance durable
+Ooty varkey,Desserts,202012,450,536,0.64,1.21,1.4,0.53,0.41,-0.42,Tendance durable
+Pfeffernüsse,Desserts,202012,1644,9838,0.18,1.4,2.72,0.13,1.36,0.99,Buzz
+Shiroi Koibito,Desserts,202212,906,1243,1.4,1.51,1.27,1.1,0.06,0.6,Tendance durable
+Lemon bar,Desserts,202106,32,46,25.22,25.72,6.48,4.26,0.16,0.06,Tendance durable
+Achappam,Desserts,202003,94,121,4.46,4.82,1.66,2.78,0.23,0.31,Tendance durable
+Khaja,Desserts,202311,2240,2868,0.97,1.32,1.22,0.79,0.23,0.41,Buzz
+Dragon's Breath (dessert),Desserts,202306,1711,3161,1.21,1.74,1.25,0.97,0.28,0.42,Buzz
+Slushy,Desserts,202104,42,64,85.31,85.31,15.3,8.07,0.3,-0.15,Tendance durable
+Sherbet (frozen dessert),Desserts,202108,24,1740,2.45,2.7,2.04,1.24,0.13,-0.13,Tendance durable
+Tutti frutti,Desserts,202005,6784,7447,1.05,1.41,1.39,0.79,0.29,-0.27,Tendance durable
+Chocolate pudding,Desserts,202004,2236,2681,0.98,1.45,1.29,0.76,0.26,0.34,Buzz
+Dock pudding,Desserts,202003,158,301,0.89,3.16,5.13,0.38,0.97,0.31,Buzz
+Hasty pudding,Desserts,202101,3324,4223,0.93,1.49,1.49,0.63,0.5,0.37,Buzz
+Tembleque,Desserts,202312,684,1090,0.99,1.51,1.45,0.68,0.32,0.79,Buzz
+Babka,Desserts,202010,4830,16379,1.35,1.79,1.51,0.99,0.3,0.09,Buzz
+Bombolone,Desserts,202205,3029,3428,1.04,1.28,1.27,0.81,0.23,-0.03,Tendance durable
+Croquembouche,Desserts,202311,7184,12498,0.86,1.65,1.47,0.63,0.39,0.16,Buzz
+Cuccidati,Desserts,202312,922,2272,0.44,1.42,2.15,0.33,0.91,0.91,Buzz
+Punschkrapfen,Desserts,202212,561,707,0.95,1.43,1.24,0.77,0.23,0.06,Tendance durable
+Semla,Desserts,202102,4062,17953,0.23,1.41,2.93,0.18,1.19,0.53,Buzz
+Knickerbocker glory,Desserts,202105,5678,6477,1.55,1.75,1.24,1.25,0.11,0.46,Buzz
+Bublik,Desserts,202203,1942,2219,1.15,1.25,1.22,0.94,0.21,0.48,Tendance durable
+Colston bun,Desserts,202006,312,506,0.73,54.75,90.5,0.01,1.93,0.15,Buzz
+Dripping cake,Desserts,202312,622,840,1.03,1.41,1.3,0.79,0.2,0.14,Buzz
+Hefekranz,Desserts,202004,396,566,0.81,1.96,2.23,0.46,0.75,0.75,Buzz
+Lardy cake,Desserts,202311,2606,3711,1.28,3.67,1.95,0.66,0.65,-0.02,Buzz
+London bun,Desserts,202302,224,342,0.66,1.54,1.95,0.46,0.79,-0.26,Buzz
+Malt loaf,Desserts,202109,2629,3548,1.88,3.72,3.79,0.8,0.54,0.53,Buzz
+Pan dulce,Desserts,202210,4139,4897,1.07,2.22,2.44,0.58,0.65,0.63,Buzz
+Paska (bread),Desserts,202204,1138,7126,0.14,1.25,3.36,0.11,1.52,0.93,Buzz
+Pumpkin bread,Desserts,202310,566,1304,0.71,1.93,1.77,0.41,0.65,0.85,Buzz
+School bread,Desserts,202301,2,6,11.8,11.8,103.2,3.43,0.13,-0.23,Tendance durable
+Soboro-ppang,Desserts,202110,679,836,0.97,1.35,1.27,0.77,0.25,0.72,Tendance durable
+Vánočka,Desserts,202012,519,1395,0.47,1.42,2.75,0.35,0.96,0.96,Buzz
+Buttermilk pie,Desserts,202311,1916,3293,0.92,2.26,2.13,0.45,0.75,0.48,Buzz
+Cashew pie,Desserts,202011,529,710,0.78,1.45,1.45,0.64,0.39,0.28,Buzz
+Chiffon pie,Desserts,202309,790,1066,1.06,1.57,1.57,0.84,0.46,0.8,Buzz
+Cream pie,Desserts,202305,6134,7122,2.69,2.69,1.56,1.78,0.21,-0.18,Buzz
+Derby pie,Desserts,202105,1247,2287,0.42,1.27,2.02,0.33,0.91,0.74,Buzz
+Lemon meringue pie,Desserts,202004,6592,9068,0.69,1.62,1.48,0.49,0.54,-0.17,Buzz
+Rhubarb pie,Desserts,202306,2356,4444,0.71,1.53,1.35,0.53,0.38,0.84,Buzz
+Snickers pie,Desserts,202008,521,699,0.97,2.7,3.75,0.46,0.82,0.79,Buzz
+Sugar cream pie,Desserts,202105,138,215,4.85,4.85,2.38,2.42,0.11,0.06,Tendance durable
+Dessert salad,Desserts,202101,608,1184,0.75,1.75,1.68,0.45,0.6,0.28,Buzz
+Glorified rice,Desserts,202308,1580,3010,0.69,1.73,2.87,0.4,1.02,0.47,Buzz
+Watergate salad,Desserts,202311,5352,12190,0.91,2.8,2.59,0.5,0.73,0.56,Buzz
+Amandine (dessert),Desserts,202004,490,650,1.19,1.46,1.24,0.96,0.14,0.11,Tendance durable
+Bilo-bilo,Desserts,202004,764,1015,0.86,1.55,1.47,0.61,0.44,0.1,Tendance durable
+Bionico,Desserts,202305,792,889,2.36,2.76,1.58,1.6,0.22,0.36,Buzz
+Date square,Desserts,202312,460,537,1.05,1.27,1.24,0.84,0.21,-0.09,Tendance durable
+Hummingbird cake,Desserts,202306,3228,6262,1.41,2.07,1.51,0.93,0.28,-0.44,Buzz
+Karpatka,Desserts,202004,443,602,1.61,1.61,1.34,1.2,0.2,0.72,Tendance durable
+Kuzumochi,Desserts,202004,853,1043,1.1,1.32,1.35,0.88,0.22,-0.29,Tendance durable
+Moorkop,Desserts,202002,592,697,0.94,2.27,2.3,0.42,0.94,0.14,Buzz
+Racuchy,Desserts,202312,615,779,1.01,1.34,1.33,0.76,0.29,-0.04,Tendance durable
+Rocky road (ice cream),Desserts,202004,7448,10810,0.86,4.16,6.58,0.22,1.36,0.77,Buzz
+Raspberry ripple,Desserts,202206,12,20,10.51,10.51,3.57,7.23,0.31,0.28,Tendance durable
+Scotcheroos,Desserts,202212,974,1179,0.73,1.28,1.25,0.58,0.41,0.41,Tendance durable
+Teiglach,Desserts,202009,517,901,0.87,1.29,2.37,0.7,0.65,0.91,Buzz
+Almdudler,Boissons,202207,3544,4714,1.02,1.41,1.23,0.82,0.21,0.4,Tendance durable
+Bundaberg Brewed Drinks,Boissons,202101,2392,2982,0.88,1.2,1.2,0.73,0.26,0.81,Tendance durable
+Hoppy (drink),Boissons,202304,785,1085,1.33,1.51,1.22,1.09,0.12,-0.29,Tendance durable
+Hwachae,Boissons,202110,529,800,1.07,1.94,1.84,0.62,0.56,0.65,Tendance durable
+Mote con huesillo,Boissons,202309,1338,1713,1.49,1.6,1.41,1.15,0.14,0.79,Tendance durable
+Near beer,Boissons,202304,317,396,1.27,1.4,1.27,1.0,0.11,-0.19,Tendance durable
+Sbiten,Boissons,202312,784,1690,2.15,2.95,1.66,1.3,0.36,0.21,Buzz
+Ambrein,Olfactif,202106,480,570,1.15,1.32,1.32,0.87,0.34,0.4,Tendance durable
+Gourmand (fragrance),Olfactif,202201,1410,1606,0.9,1.34,1.34,0.67,0.36,0.63,Tendance durable
+Hyraceum,Olfactif,202311,728,896,1.08,1.31,1.31,0.82,0.23,0.0,Tendance durable
+Labdanum,Olfactif,202005,2885,3318,1.02,1.25,1.29,0.82,0.26,0.37,Tendance durable
+Nag champa,Olfactif,202005,35,45,147.03,147.03,31.01,7.82,0.29,0.16,Tendance durable
+3-Octanone,Olfactif,202301,168,261,1.18,3.58,4.47,0.43,0.89,0.69,Buzz
+Safrole,Olfactif,202309,10732,11984,1.01,1.32,1.22,0.83,0.23,0.56,Tendance durable
+Citron,Olfactif,202311,23438,28434,1.23,1.56,1.29,0.95,0.17,0.12,Tendance durable
+Pine oil,Olfactif,202003,3445,3833,1.03,1.63,1.43,0.8,0.31,0.37,Buzz
+Kladdkaka,Desserts,202005,1480,1902,1.13,1.68,1.62,0.7,0.45,0.39,Tendance durable
+Lamington,Desserts,202308,10112,14392,0.95,1.29,1.29,0.74,0.26,-0.01,Buzz
+Bingsu,Desserts,202103,112,190,32.19,32.19,4.97,12.88,0.41,0.58,Tendance durable
+Amish friendship bread,Desserts,202003,2086,2838,1.94,2.92,1.39,1.57,0.4,0.96,Buzz
+Banana bread,Desserts,202003,14899,21099,0.99,2.96,1.58,0.67,0.74,-0.23,Buzz
+Belgian bun,Desserts,202111,893,1161,1.0,3.75,4.67,0.33,1.04,0.09,Buzz
+Canned tea,Boissons,202310,230,261,1.45,2.48,1.58,0.95,0.4,-0.26,Buzz
+Champurrado,Boissons,202312,6016,13895,0.65,1.59,1.55,0.44,0.54,0.94,Buzz
+Champús,Boissons,202108,312,428,0.81,1.6,2.0,0.59,0.6,0.49,Tendance durable
+Crodino,Boissons,202208,1788,3022,0.67,1.22,1.22,0.55,0.37,0.96,Tendance durable
+Storax balsam,Olfactif,202003,1128,1232,1.26,1.84,1.34,0.98,0.29,0.45,Tendance durable
