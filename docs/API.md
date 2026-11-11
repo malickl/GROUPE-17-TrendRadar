@@ -29,7 +29,8 @@ uvicorn src.api:app --host 0.0.0.0 --port 8000
 ```
 
 Une fois l'API lancée :
-- **documentation interactive** (tester chaque appel depuis le navigateur) : `http://localhost:8000/docs` ;
+- **documentation interactive** (tester chaque appel depuis le navigateur) : `http://localhost:8000/docs`. L'adresse de base seule (`http://localhost:8000/`) redirige vers cette page ;
+- **interface de démo** (bulles vertes et rouges) : `http://localhost:8000/ui` ;
 - **adresse de base des appels** : `http://localhost:8000`.
 
 ### Variables d'environnement (optionnelles)
@@ -60,6 +61,8 @@ Exemple : `SCAN_AUTO_HOURS=6 CORS_ORIGINS=http://localhost:3000 uvicorn src.api:
 | `POST` | `/predict_features` | les 9 variables | prédiction | tests, usages avancés |
 | `POST` | `/scan/run` | aucune (paramètres optionnels) | « lancé » | forcer la mise à jour de la liste |
 | `GET` | `/scan/status` | aucune | avancement du scan | barre de progression, supervision |
+| `GET` | `/ui` | aucune | page HTML | interface de démo prête à l'emploi : bulles tendance/buzz, détail au clic. Exemple de ce qu'on peut construire avec `/scan/latest` et `/predict`. |
+| `GET` | `/` | aucune | redirection | renvoie vers `/docs` |
 
 **Comment ça marche :**
 - `/scan/latest` **ne calcule rien** : il renvoie un tableau calculé à l'avance par le **scan**. Le scan passe en revue environ 2 000 pages Wikipédia, trouve celles qui décollent et prédit pour chacune. La réponse est donc instantanée.
@@ -88,9 +91,11 @@ Indique si l'API fonctionne.
 
 ### `GET /scan/latest`  ⭐ appel principal
 
-Renvoie tous les signaux du dernier scan. Ils sont déjà triés : d'abord les cas valides, par probabilité de tendance décroissante, puis les cas exclus.
+Renvoie tous les signaux du dernier scan.
 
-**Réponse `200`**
+> ⚠️ **Par défaut, l'API est en mode démo** (`DEMO_MODE=1`) : la réponse contient alors **45 sujets valides** et des **champs fictifs** en plus. Voir « Mode démo » plus bas. L'exemple ci-dessous montre le **mode réel** (`DEMO_MODE=0`), où les cas valides sont classés par probabilité de tendance décroissante, suivis des cas exclus.
+
+**Réponse `200` en mode réel**
 ```json
 {
   "file": "scan_202610.csv",
@@ -144,6 +149,20 @@ La démo contient **45 sujets** :
 
 - **Ne changent pas** (réels, issus du modèle) : `title`, `group`, `t0`, `label`, `proba_tendance`, les 8 variables, `verdict_verifiable_le` et `exclu_raison`.
 - **Ajoutés au niveau global :** `demo_fictif: true`, `avertissement` (texte qui liste les champs fictifs) et `source_reelle`.
+
+Réponse en mode démo (sans le détail de `rows`) :
+```json
+{
+  "file": "demo_scan.json",
+  "source_reelle": "scan_202610.csv",
+  "last_month": "202610",
+  "demo_fictif": true,
+  "avertissement": "Données de démonstration : domaine, country, lat, lon, element_cle, veille, matieres_premieres, date_prediction et historique sont fictifs (...). title, group, t0, label, proba_tendance et les variables du modèle sont réels. Seuls les cas valides sont listés.",
+  "n": 45,
+  "rows": [ "... 45 sujets, voir l'exemple plus bas ..." ]
+}
+```
+
 - **Ajoutés à chaque sujet (fictifs) :**
 
 | Champ | Type | Contenu |
