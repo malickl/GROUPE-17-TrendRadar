@@ -38,6 +38,7 @@ Une fois l'API lancée :
 |---|---|---|
 | `SCAN_AUTO_HOURS` | `24` | Toutes les N heures, l'API vérifie que le scan du dernier mois complet existe, et le lance s'il manque. `0` désactive cette vérification : vous déclenchez alors les scans vous-mêmes avec `POST /scan/run`. |
 | `CORS_ORIGINS` | `*` | Origines autorisées à appeler l'API depuis un navigateur, séparées par des virgules. Exemple : `https://mon-front.app,http://localhost:3000`. |
+| `DEMO_MODE` | `1` | `1` : `/scan/latest` sert le fichier de démo enrichi de champs fictifs (voir « Mode démo » en section 4). `0` : il sert le vrai dernier scan, sans champs fictifs. |
 
 Exemple : `SCAN_AUTO_HOURS=6 CORS_ORIGINS=http://localhost:3000 uvicorn src.api:app --port 8000`
 
@@ -132,6 +133,61 @@ Renvoie tous les signaux du dernier scan. Ils sont déjà triés : d'abord les c
 | `rows[].base` … `seasonality` | Les variables utilisées par le modèle (section 5). |
 
 **Erreur `404`** : aucun scan n'a encore été produit.
+
+#### Mode démo (actif par défaut)
+
+Pour la démo, `/scan/latest` sert un fichier **fixe**, `data/demo_scan.json` : le vrai scan d'octobre 2026, auquel on ajoute des **champs fictifs**. La réponse est identique à chaque appel.
+
+La démo contient **45 sujets** :
+- uniquement les cas **valides** : `exclu_raison` vaut toujours `null` ;
+- sans 4 sujets hors-sujet ou trop génériques : Mast seeding, Types of cocoa beans, Fragrance compound et Crazy Mountain.
+
+- **Ne changent pas** (réels, issus du modèle) : `title`, `group`, `t0`, `label`, `proba_tendance`, les 8 variables, `verdict_verifiable_le` et `exclu_raison`.
+- **Ajoutés au niveau global :** `demo_fictif: true`, `avertissement` (texte qui liste les champs fictifs) et `source_reelle`.
+- **Ajoutés à chaque sujet (fictifs) :**
+
+| Champ | Type | Contenu |
+|---|---|---|
+| `demo_fictif` | booléen | Toujours `true`. |
+| `domaine` | texte | `"Parfum"` si `group` vaut `Olfactif`, sinon `"Goût"`. |
+| `country` | texte | Code ISO du **pays d'origine** du sujet quand il est connu (ex. Maritozzo → `IT`, Halawet el jibn → `LB`, Thekua → `IN`). Sinon, tiré au hasard parmi FR, US, GB, DE, IT, ES, BR, MX, IN, JP. |
+| `country_source` | texte | `"origine"` (pays d'origine du sujet) ou `"aleatoire"` (tiré au hasard). |
+| `lat`, `lon` | nombres | Coordonnées de la capitale du pays, avec un léger décalage (±0,6°) pour que les points ne se superposent pas sur une carte. |
+| `element_cle` | texte | Élément gustatif ou olfactif qui fait le succès du sujet, en une phrase. |
+| `veille.resume` | texte | Ce qui se dirait sur internet à propos du sujet, en 2-3 phrases. |
+| `veille.sources` | liste de `{titre, url}` | 3 liens **réels** : la page Wikipédia du sujet, sa recherche Google Trends et sa recherche Google Actualités. |
+| `matieres_premieres` | liste de textes | 2 à 4 matières premières liées au sujet. |
+| `date_prediction` | `AAAAMM` | Mois de la prédiction, entre janvier et octobre 2026, postérieur à `t0`. |
+| `historique` | liste de `{mois, label, proba_tendance}` | Une entrée par mois, de `date_prediction` à `202610`. Le verdict reste le même sur toute la période, et le dernier mois porte la vraie `proba_tendance`. |
+
+Exemple (extrait) :
+```json
+{
+  "title": "Maritozzo", "group": "Desserts", "t0": "202601",
+  "label": "Tendance durable", "proba_tendance": 0.96,
+  "domaine": "Goût", "country": "US", "lat": 38.9102, "lon": -77.0227,
+  "element_cle": "La brioche moelleuse fendue et débordante de crème fouettée vanillée",
+  "veille": {
+    "resume": "La brioche romaine à la crème s'affiche dans les vitrines des boulangeries hors d'Italie et sur les réseaux sociaux, où la coupe généreuse de crème fait le visuel. Les pâtissiers la déclinent en versions pistache, chocolat ou agrumes.",
+    "sources": [
+      { "titre": "Wikipédia : Maritozzo", "url": "https://en.wikipedia.org/wiki/Maritozzo" },
+      { "titre": "Google Trends : intérêt de recherche pour « Maritozzo »", "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Maritozzo" },
+      { "titre": "Google Actualités : articles sur « Maritozzo »", "url": "https://news.google.com/search?q=Maritozzo" }
+    ]
+  },
+  "matieres_premieres": ["Farine de blé", "Crème fraîche", "Vanille", "Zeste d'orange"],
+  "date_prediction": "202607",
+  "historique": [
+    { "mois": "202607", "label": "Tendance durable", "proba_tendance": 0.966 },
+    { "mois": "202608", "label": "Tendance durable", "proba_tendance": 0.963 },
+    { "mois": "202609", "label": "Tendance durable", "proba_tendance": 0.976 },
+    { "mois": "202610", "label": "Tendance durable", "proba_tendance": 0.96 }
+  ],
+  "demo_fictif": true
+}
+```
+
+Le fichier se régénère avec `python src/demo.py`. La graine aléatoire est fixe, donc le résultat est toujours le même. Les textes sont rédigés dans `data/demo_contenu.json`.
 
 ---
 
@@ -413,7 +469,7 @@ curl http://localhost:8000/scan/status
 
 ## 7. Limites à connaître pour le design
 
-- **Pas de dimension géographique pour l'instant.** Toutes les données viennent du Wikipédia **anglais** : un signal est « mondial / anglophone ». Une vue par pays est prévue dans une version ultérieure. D'ici là, une carte ne peut pas afficher de différence par pays.
+- **Pas de dimension géographique réelle pour l'instant.** En mode démo, `country`, `lat` et `lon` sont fictifs. Toutes les données viennent du Wikipédia **anglais** : un signal est « mondial / anglophone ». Une vue par pays est prévue dans une version ultérieure. D'ici là, une carte ne peut pas afficher de différence par pays.
 - **Liste de sujets fixe.** Le radar surveille une liste fixe de 1 981 pages Wikipédia, issues de 9 catégories (desserts, épices, arômes, boissons…). Un sujet absent de cette liste, par exemple une page créée récemment, n'apparaîtra pas dans `/scan/latest`. L'élargissement de la liste est prévu dans une version ultérieure.
 - **Données mensuelles.** Le tableau change une fois par mois.
 - **Titres exacts.** `/predict` attend le titre exact de la page Wikipédia anglaise. Une recherche approximative doit être faite côté interface, par exemple en proposant les titres de `/scan/latest`.

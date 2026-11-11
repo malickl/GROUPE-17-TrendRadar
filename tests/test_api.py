@@ -127,3 +127,42 @@ def test_scan_run_conflict_and_errors(monkeypatch):
     assert 'incomplet' in client.get('/scan/status').json()['error']
     assert client.post('/scan/run', params={'last': '2026-10'}).status_code == 422
     assert client.post('/scan/run', params={'last': '209912'}).status_code == 422
+
+
+# ---------- Démo : champs fictifs autour des champs réels ----------
+def test_demo_scan_latest():
+    import json
+    if not api.DEMO_JSON.exists():
+        pytest.skip("pas de fichier de démo")
+    j = client.get('/scan/latest').json()
+    assert j['demo_fictif'] is True and j['n'] == len(j['rows'])
+    import demo
+    real = pd.read_csv(ROOT / 'outputs' / 'scan_202610.csv', dtype={'t0': str})
+    real = real[real.exclu_raison.isna() & ~real.title.isin(demo.EXCLUS_DEMO)]
+    assert list(real.title) == [r['title'] for r in j['rows']]          # même ordre, mêmes sujets
+    assert not demo.EXCLUS_DEMO & {r['title'] for r in j['rows']}
+    for (_, x), r in zip(real.iterrows(), j['rows']):
+        assert r['exclu_raison'] is None
+        # pays : origine connue, sinon tirage parmi les 10 pays
+        if r['title'] in demo.ORIGINE:
+            assert r['country'] == demo.ORIGINE[r['title']] and r['country_source'] == 'origine'
+        else:
+            assert r['country'] in demo.TIRAGE and r['country_source'] == 'aleatoire'
+        _, clat, clon = demo.CAPITALES[r['country']]
+        assert abs(r['lat'] - clat) <= 0.6 and abs(r['lon'] - clon) <= 0.6
+        # champs réels inchangés
+        assert (r['group'], r['t0'], r['label']) == (x.group, x.t0, x.label)
+        assert r['proba_tendance'] == pytest.approx(x.proba_tendance)
+        for c in FEATURES[1:]:
+            assert r[c] == pytest.approx(x[c])
+        # champs fictifs
+        assert r['demo_fictif'] is True
+        assert r['domaine'] == ('Parfum' if r['group'] == 'Olfactif' else 'Goût')
+        assert r['element_cle'] and r['veille']['resume'] and 2 <= len(r['veille']['sources']) <= 3
+        assert 2 <= len(r['matieres_premieres']) <= 4
+        assert '202601' <= r['date_prediction'] <= '202610' and r['date_prediction'] > r['t0']
+        h = r['historique']
+        assert h[0]['mois'] == r['date_prediction'] and h[-1]['mois'] == '202610'
+        assert h[-1]['proba_tendance'] == pytest.approx(r['proba_tendance'])
+        tendance = r['label'] == 'Tendance durable'
+        assert all(p['label'] == r['label'] and (p['proba_tendance'] >= 0.5) == tendance for p in h)

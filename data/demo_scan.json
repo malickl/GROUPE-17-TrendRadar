@@ -1,0 +1,3299 @@
+{
+ "file": "demo_scan.json",
+ "source_reelle": "scan_202610.csv",
+ "last_month": "202610",
+ "demo_fictif": true,
+ "avertissement": "Données de démonstration : domaine, country, lat, lon, element_cle, veille, matieres_premieres, date_prediction et historique sont fictifs (country = pays d'origine du sujet si country_source vaut 'origine', sinon tiré au hasard). title, group, t0, label, proba_tendance et les variables du modèle sont réels. Seuls les cas valides sont listés.",
+ "n": 45,
+ "rows": [
+  {
+   "title": "Maritozzo",
+   "group": "Desserts",
+   "t0": "202601",
+   "base": 114,
+   "record_24m": 189,
+   "ratio_now": 22.69,
+   "max_ratio": 22.69,
+   "jump_t0": 5.77,
+   "growth_since_t0": 6.87,
+   "volatility": 0.28,
+   "seasonality": -0.31,
+   "proba_tendance": 0.96,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202801",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "IT",
+   "country_source": "origine",
+   "lat": 41.9058,
+   "lon": 12.5106,
+   "element_cle": "La brioche moelleuse fendue et débordante de crème fouettée vanillée",
+   "veille": {
+    "resume": "La brioche romaine à la crème s'affiche dans les vitrines des boulangeries hors d'Italie et sur les réseaux sociaux, où la coupe généreuse de crème fait le visuel. Les pâtissiers la déclinent en versions pistache, chocolat ou agrumes.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Maritozzo",
+      "url": "https://en.wikipedia.org/wiki/Maritozzo"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Maritozzo »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Maritozzo"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Maritozzo »",
+      "url": "https://news.google.com/search?q=Maritozzo"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Farine de blé",
+    "Crème fraîche",
+    "Vanille",
+    "Zeste d'orange"
+   ],
+   "date_prediction": "202607",
+   "historique": [
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.966
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.963
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.976
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.96
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Halawet el jibn",
+   "group": "Desserts",
+   "t0": "202601",
+   "base": 0,
+   "record_24m": 35,
+   "ratio_now": 38.27,
+   "max_ratio": 43.99,
+   "jump_t0": 17.95,
+   "growth_since_t0": 3.07,
+   "volatility": 0.19,
+   "seasonality": 0.0,
+   "proba_tendance": 0.869,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202801",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "LB",
+   "country_source": "origine",
+   "lat": 34.2338,
+   "lon": 35.5592,
+   "element_cle": "La pâte de fromage fondante parfumée à l'eau de fleur d'oranger",
+   "veille": {
+    "resume": "Ce dessert levantin roulé au fromage et à la semoule gagne en visibilité grâce aux vidéos de préparation et aux pâtisseries libanaises des grandes villes. On le cite souvent pour son parfum de fleur d'oranger et sa garniture d'ashta.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Halawet el jibn",
+      "url": "https://en.wikipedia.org/wiki/Halawet_el_jibn"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Halawet el jibn »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Halawet+el+jibn"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Halawet el jibn »",
+      "url": "https://news.google.com/search?q=Halawet+el+jibn"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Semoule",
+    "Fromage akkawi",
+    "Eau de fleur d'oranger",
+    "Pistache"
+   ],
+   "date_prediction": "202608",
+   "historique": [
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.954
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.919
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.869
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Wheel pie",
+   "group": "Desserts",
+   "t0": "202511",
+   "base": 0,
+   "record_24m": 0,
+   "ratio_now": 10.26,
+   "max_ratio": 10.26,
+   "jump_t0": 65.33,
+   "growth_since_t0": 7.85,
+   "volatility": 0.28,
+   "seasonality": 0.0,
+   "proba_tendance": 0.867,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202711",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "TW",
+   "country_source": "origine",
+   "lat": 24.7209,
+   "lon": 121.7024,
+   "element_cle": "La pâte dorée en forme de galet garnie de crème ou de haricot rouge sucré",
+   "veille": {
+    "resume": "Ce gâteau de rue taïwanais cuit en moule rond est mis en avant par les comptes street food. Les garnitures crème pâtissière, haricot rouge et matcha sont les plus partagées.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Wheel pie",
+      "url": "https://en.wikipedia.org/wiki/Wheel_pie"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Wheel pie »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Wheel+pie"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Wheel pie »",
+      "url": "https://news.google.com/search?q=Wheel+pie"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Haricot azuki",
+    "Lait",
+    "Œuf",
+    "Matcha"
+   ],
+   "date_prediction": "202608",
+   "historique": [
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.769
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.806
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.867
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Antwerp hands",
+   "group": "Desserts",
+   "t0": "202603",
+   "base": 366,
+   "record_24m": 661,
+   "ratio_now": 1.38,
+   "max_ratio": 1.44,
+   "jump_t0": 1.28,
+   "growth_since_t0": 1.08,
+   "volatility": 0.12,
+   "seasonality": 0.28,
+   "proba_tendance": 0.843,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202803",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "BE",
+   "country_source": "origine",
+   "lat": 50.6274,
+   "lon": 4.2284,
+   "element_cle": "Le biscuit sablé au beurre et à l'amande en forme de main",
+   "veille": {
+    "resume": "Le biscuit emblématique d'Anvers circule dans les guides gourmands sur la Belgique et comme souvenir local. Son goût beurré et amandé est souvent comparé aux sablés traditionnels.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Antwerp hands",
+      "url": "https://en.wikipedia.org/wiki/Antwerp_hands"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Antwerp hands »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Antwerp+hands"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Antwerp hands »",
+      "url": "https://news.google.com/search?q=Antwerp+hands"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Beurre",
+    "Amande",
+    "Farine de blé",
+    "Sucre"
+   ],
+   "date_prediction": "202609",
+   "historique": [
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.827
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.843
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Pinus pinea",
+   "group": "Noix & graines",
+   "t0": "202605",
+   "base": 674,
+   "record_24m": 734,
+   "ratio_now": 8.74,
+   "max_ratio": 8.74,
+   "jump_t0": 1.71,
+   "growth_since_t0": 6.64,
+   "volatility": 0.35,
+   "seasonality": 0.01,
+   "proba_tendance": 0.84,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202805",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "ES",
+   "country_source": "aleatoire",
+   "lat": 41.0164,
+   "lon": -3.6875,
+   "element_cle": "Le pignon de pin, rond, beurré et légèrement résineux",
+   "veille": {
+    "resume": "Le pin parasol revient dans les discussions autour des pignons européens, plus chers que les importations. Les chefs méditerranéens mettent en avant leur goût résineux dans le pesto et les pâtisseries.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Pinus pinea",
+      "url": "https://en.wikipedia.org/wiki/Pinus_pinea"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Pinus pinea »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Pinus+pinea"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Pinus pinea »",
+      "url": "https://news.google.com/search?q=Pinus+pinea"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Pignon de pin",
+    "Résine de pin",
+    "Huile de pignon"
+   ],
+   "date_prediction": "202609",
+   "historique": [
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.703
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.84
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Polianthes tuberosa",
+   "group": "Olfactif",
+   "t0": "202510",
+   "base": 52,
+   "record_24m": 111,
+   "ratio_now": 45.14,
+   "max_ratio": 48.56,
+   "jump_t0": 19.48,
+   "growth_since_t0": 2.77,
+   "volatility": 0.08,
+   "seasonality": 0.35,
+   "proba_tendance": 0.825,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202710",
+   "exclu_raison": null,
+   "domaine": "Parfum",
+   "country": "MX",
+   "country_source": "origine",
+   "lat": 19.1831,
+   "lon": -99.1843,
+   "element_cle": "L'odeur florale blanche, crémeuse et capiteuse de la tubéreuse",
+   "veille": {
+    "resume": "La tubéreuse est citée comme l'une des fleurs blanches stars des parfums récents, entre sensualité et note solaire. Les avis parlent de son caractère opulent, parfois clivant.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Polianthes tuberosa",
+      "url": "https://en.wikipedia.org/wiki/Polianthes_tuberosa"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Polianthes tuberosa »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Polianthes+tuberosa"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Polianthes tuberosa »",
+      "url": "https://news.google.com/search?q=Polianthes+tuberosa"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Absolue de tubéreuse",
+    "Salicylate de méthyle",
+    "Jasmin",
+    "Ylang-ylang"
+   ],
+   "date_prediction": "202609",
+   "historique": [
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.95
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.825
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Khaliat nahl",
+   "group": "Desserts",
+   "t0": "202601",
+   "base": 0,
+   "record_24m": 2,
+   "ratio_now": 13.85,
+   "max_ratio": 14.3,
+   "jump_t0": 78.0,
+   "growth_since_t0": 5.33,
+   "volatility": 0.25,
+   "seasonality": 0.0,
+   "proba_tendance": 0.82,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202801",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "YE",
+   "country_source": "origine",
+   "lat": 14.7991,
+   "lon": 44.444,
+   "element_cle": "La brioche en nid d'abeille nappée de sirop de miel et de nigelle",
+   "veille": {
+    "resume": "Le pain-gâteau yéménite « ruche d'abeille » séduit par son visuel alvéolé et son fourrage au fromage. Les recettes maison se partagent beaucoup pendant le ramadan.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Khaliat nahl",
+      "url": "https://en.wikipedia.org/wiki/Khaliat_nahl"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Khaliat nahl »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Khaliat+nahl"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Khaliat nahl »",
+      "url": "https://news.google.com/search?q=Khaliat+nahl"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Miel",
+    "Graines de nigelle",
+    "Farine de blé",
+    "Fromage frais"
+   ],
+   "date_prediction": "202606",
+   "historique": [
+    {
+     "mois": "202606",
+     "label": "Tendance durable",
+     "proba_tendance": 0.774
+    },
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.783
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.805
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.81
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.82
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Bonbonniere",
+   "group": "Desserts",
+   "t0": "202512",
+   "base": 0,
+   "record_24m": 0,
+   "ratio_now": 21.16,
+   "max_ratio": 21.61,
+   "jump_t0": 106.33,
+   "growth_since_t0": 9.95,
+   "volatility": 0.33,
+   "seasonality": 0.0,
+   "proba_tendance": 0.794,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202712",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "US",
+   "country_source": "aleatoire",
+   "lat": 38.9148,
+   "lon": -76.7367,
+   "element_cle": "Le chocolat praliné présenté en coffret précieux",
+   "veille": {
+    "resume": "La bonbonnière fait son retour comme objet de cadeau et de décoration, associée aux chocolats fins et aux dragées. Les marques jouent sur la nostalgie et l'emballage premium.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Bonbonniere",
+      "url": "https://en.wikipedia.org/wiki/Bonbonniere"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Bonbonniere »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Bonbonniere"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Bonbonniere »",
+      "url": "https://news.google.com/search?q=Bonbonniere"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Cacao",
+    "Praliné",
+    "Amande",
+    "Sucre"
+   ],
+   "date_prediction": "202607",
+   "historique": [
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.824
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.839
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.79
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.794
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Ladyfingers (biscuits)",
+   "group": "Desserts",
+   "t0": "202512",
+   "base": 0,
+   "record_24m": 8467,
+   "ratio_now": 1.02,
+   "max_ratio": 1.23,
+   "jump_t0": 1.24,
+   "growth_since_t0": 0.83,
+   "volatility": 0.19,
+   "seasonality": 0.0,
+   "proba_tendance": 0.777,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202712",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "IT",
+   "country_source": "origine",
+   "lat": 42.4143,
+   "lon": 12.4714,
+   "element_cle": "Le biscuit léger et aérien qui absorbe café et crème",
+   "veille": {
+    "resume": "Le biscuit cuillère profite de la popularité continue du tiramisu et des desserts sans cuisson. Les vidéos de tiramisu revisité (pistache, fruits rouges) entretiennent la demande.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Ladyfingers (biscuits)",
+      "url": "https://en.wikipedia.org/wiki/Ladyfingers_%28biscuits%29"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Ladyfingers (biscuits) »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Ladyfingers+%28biscuits%29"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Ladyfingers (biscuits) »",
+      "url": "https://news.google.com/search?q=Ladyfingers+%28biscuits%29"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Œuf",
+    "Sucre",
+    "Farine de blé",
+    "Café"
+   ],
+   "date_prediction": "202610",
+   "historique": [
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.777
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Qatir (syrup)",
+   "group": "Desserts",
+   "t0": "202511",
+   "base": 170,
+   "record_24m": 302,
+   "ratio_now": 1.67,
+   "max_ratio": 1.67,
+   "jump_t0": 1.31,
+   "growth_since_t0": 1.37,
+   "volatility": 0.14,
+   "seasonality": 0.29,
+   "proba_tendance": 0.775,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202711",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "FR",
+   "country_source": "aleatoire",
+   "lat": 48.526,
+   "lon": 1.907,
+   "element_cle": "Le sirop de sucre parfumé à la rose et à la fleur d'oranger",
+   "veille": {
+    "resume": "Ce sirop de base des pâtisseries levantines est recherché par les amateurs qui reproduisent baklava et knafeh chez eux. Ses parfums floraux sont souvent soulignés.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Qatir (syrup)",
+      "url": "https://en.wikipedia.org/wiki/Qatir_%28syrup%29"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Qatir (syrup) »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Qatir+%28syrup%29"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Qatir (syrup) »",
+      "url": "https://news.google.com/search?q=Qatir+%28syrup%29"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Sucre",
+    "Eau de rose",
+    "Eau de fleur d'oranger",
+    "Citron"
+   ],
+   "date_prediction": "202610",
+   "historique": [
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.775
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Frog eye salad",
+   "group": "Desserts",
+   "t0": "202601",
+   "base": 2,
+   "record_24m": 7,
+   "ratio_now": 14.11,
+   "max_ratio": 14.11,
+   "jump_t0": 53.8,
+   "growth_since_t0": 3.93,
+   "volatility": 0.4,
+   "seasonality": 0.15,
+   "proba_tendance": 0.772,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202801",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "US",
+   "country_source": "origine",
+   "lat": 39.168,
+   "lon": -77.1216,
+   "element_cle": "La texture crémeuse des petites pâtes mêlées d'ananas et de mandarine",
+   "veille": {
+    "resume": "Cette salade sucrée du Midwest américain revient sous l'angle de la cuisine rétro et des repas de famille. Elle intrigue par son nom et son mélange pâtes-fruits-crème.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Frog eye salad",
+      "url": "https://en.wikipedia.org/wiki/Frog_eye_salad"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Frog eye salad »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Frog+eye+salad"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Frog eye salad »",
+      "url": "https://news.google.com/search?q=Frog+eye+salad"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Ananas",
+    "Mandarine",
+    "Crème fouettée",
+    "Pâtes acini di pepe"
+   ],
+   "date_prediction": "202603",
+   "historique": [
+    {
+     "mois": "202603",
+     "label": "Tendance durable",
+     "proba_tendance": 0.688
+    },
+    {
+     "mois": "202604",
+     "label": "Tendance durable",
+     "proba_tendance": 0.701
+    },
+    {
+     "mois": "202605",
+     "label": "Tendance durable",
+     "proba_tendance": 0.673
+    },
+    {
+     "mois": "202606",
+     "label": "Tendance durable",
+     "proba_tendance": 0.723
+    },
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.736
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.754
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.784
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.772
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Monoï oil",
+   "group": "Olfactif",
+   "t0": "202511",
+   "base": 0,
+   "record_24m": 54,
+   "ratio_now": 12.85,
+   "max_ratio": 12.85,
+   "jump_t0": 5.49,
+   "growth_since_t0": 2.34,
+   "volatility": 0.05,
+   "seasonality": 0.0,
+   "proba_tendance": 0.765,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202711",
+   "exclu_raison": null,
+   "domaine": "Parfum",
+   "country": "PF",
+   "country_source": "origine",
+   "lat": -17.4798,
+   "lon": -149.3548,
+   "element_cle": "L'odeur solaire de fleur de tiaré macérée dans l'huile de coco",
+   "veille": {
+    "resume": "Le monoï de Tahiti revient dans les parfums et soins « solaires » et les fragrances d'été. Les avis évoquent une odeur de vacances, crémeuse et florale.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Monoï oil",
+      "url": "https://en.wikipedia.org/wiki/Mono%C3%AF_oil"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Monoï oil »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Mono%C3%AF+oil"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Monoï oil »",
+      "url": "https://news.google.com/search?q=Mono%C3%AF+oil"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Fleur de tiaré",
+    "Huile de coco",
+    "Gardénia",
+    "Salicylate de benzyle"
+   ],
+   "date_prediction": "202605",
+   "historique": [
+    {
+     "mois": "202605",
+     "label": "Tendance durable",
+     "proba_tendance": 0.725
+    },
+    {
+     "mois": "202606",
+     "label": "Tendance durable",
+     "proba_tendance": 0.719
+    },
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.729
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.765
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.749
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.765
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Ghorayeba",
+   "group": "Desserts",
+   "t0": "202602",
+   "base": 0,
+   "record_24m": 2,
+   "ratio_now": 22.39,
+   "max_ratio": 25.44,
+   "jump_t0": 115.8,
+   "growth_since_t0": 5.8,
+   "volatility": 0.27,
+   "seasonality": 0.0,
+   "proba_tendance": 0.761,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202802",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "IT",
+   "country_source": "aleatoire",
+   "lat": 41.3139,
+   "lon": 12.0762,
+   "element_cle": "Le sablé fondant au beurre clarifié qui se défait en bouche",
+   "veille": {
+    "resume": "Les ghorayeba sont partagés en masse pendant les fêtes de l'Aïd, avec des variantes à l'amande, à la pistache ou à la noix de coco. Leur texture friable est l'argument principal.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Ghorayeba",
+      "url": "https://en.wikipedia.org/wiki/Ghorayeba"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Ghorayeba »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Ghorayeba"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Ghorayeba »",
+      "url": "https://news.google.com/search?q=Ghorayeba"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Beurre clarifié",
+    "Amande",
+    "Sucre glace",
+    "Farine de blé"
+   ],
+   "date_prediction": "202607",
+   "historique": [
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.903
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.856
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.825
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.761
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Cocoa powder",
+   "group": "Épices",
+   "t0": "202605",
+   "base": 650,
+   "record_24m": 824,
+   "ratio_now": 6.73,
+   "max_ratio": 6.76,
+   "jump_t0": 2.18,
+   "growth_since_t0": 4.08,
+   "volatility": 0.23,
+   "seasonality": 0.72,
+   "proba_tendance": 0.745,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202805",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "ES",
+   "country_source": "aleatoire",
+   "lat": 40.1289,
+   "lon": -3.7211,
+   "element_cle": "L'amertume profonde et torréfiée du cacao",
+   "veille": {
+    "resume": "Le cacao en poudre est au cœur des discussions sur la flambée des prix du cacao et les alternatives. Les consommateurs se tournent vers le cacao non sucré pour les boissons et la pâtisserie maison.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Cocoa powder",
+      "url": "https://en.wikipedia.org/wiki/Cocoa_powder"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Cocoa powder »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Cocoa+powder"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Cocoa powder »",
+      "url": "https://news.google.com/search?q=Cocoa+powder"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Fève de cacao",
+    "Beurre de cacao",
+    "Alcalinisant"
+   ],
+   "date_prediction": "202607",
+   "historique": [
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.768
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.766
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.75
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.745
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Khubani ka meetha",
+   "group": "Desserts",
+   "t0": "202511",
+   "base": 0,
+   "record_24m": 0,
+   "ratio_now": 10.3,
+   "max_ratio": 10.99,
+   "jump_t0": 111.0,
+   "growth_since_t0": 4.64,
+   "volatility": 0.22,
+   "seasonality": 0.0,
+   "proba_tendance": 0.738,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202711",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "IN",
+   "country_source": "origine",
+   "lat": 28.3939,
+   "lon": 77.7092,
+   "element_cle": "L'abricot sec mijoté au goût de caramel naturel",
+   "veille": {
+    "resume": "Ce dessert d'Hyderabad à base d'abricots secs est mis en avant dans les contenus sur la cuisine des mariages indiens. On souligne sa douceur fruitée servie avec crème ou glace.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Khubani ka meetha",
+      "url": "https://en.wikipedia.org/wiki/Khubani_ka_meetha"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Khubani ka meetha »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Khubani+ka+meetha"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Khubani ka meetha »",
+      "url": "https://news.google.com/search?q=Khubani+ka+meetha"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Abricot sec",
+    "Amande d'abricot",
+    "Sucre",
+    "Crème"
+   ],
+   "date_prediction": "202605",
+   "historique": [
+    {
+     "mois": "202605",
+     "label": "Tendance durable",
+     "proba_tendance": 0.629
+    },
+    {
+     "mois": "202606",
+     "label": "Tendance durable",
+     "proba_tendance": 0.659
+    },
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.667
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.687
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.742
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.738
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Feijoa",
+   "group": "Fruits tropicaux",
+   "t0": "202512",
+   "base": 300,
+   "record_24m": 393,
+   "ratio_now": 42.71,
+   "max_ratio": 42.71,
+   "jump_t0": 5.84,
+   "growth_since_t0": 10.24,
+   "volatility": 0.63,
+   "seasonality": -0.19,
+   "proba_tendance": 0.733,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202712",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "BR",
+   "country_source": "origine",
+   "lat": -15.2657,
+   "lon": -47.7045,
+   "element_cle": "Le parfum à la fois ananas, goyave et menthe du feijoa",
+   "veille": {
+    "resume": "Le feijoa intrigue par son arôme tropical complexe et apparaît dans des boissons, glaces et vodkas aromatisées. Il est présenté comme un fruit « nouveau » hors de Nouvelle-Zélande.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Feijoa",
+      "url": "https://en.wikipedia.org/wiki/Feijoa"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Feijoa »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Feijoa"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Feijoa »",
+      "url": "https://news.google.com/search?q=Feijoa"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Feijoa",
+    "Goyave",
+    "Benzoate de méthyle"
+   ],
+   "date_prediction": "202608",
+   "historique": [
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.846
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.775
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.733
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Icebox cookie",
+   "group": "Desserts",
+   "t0": "202601",
+   "base": 0,
+   "record_24m": 0,
+   "ratio_now": 10.31,
+   "max_ratio": 10.31,
+   "jump_t0": 162.0,
+   "growth_since_t0": 3.18,
+   "volatility": 0.07,
+   "seasonality": 0.0,
+   "proba_tendance": 0.7,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202801",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "US",
+   "country_source": "origine",
+   "lat": 38.8465,
+   "lon": -77.6201,
+   "element_cle": "Le cookie croustillant tranché depuis un boudin de pâte au beurre",
+   "veille": {
+    "resume": "Les cookies « slice and bake » reviennent avec la pâtisserie anticipée et les pâtes à garder au congélateur. Les déclinaisons damier, citron et chocolat se partagent beaucoup.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Icebox cookie",
+      "url": "https://en.wikipedia.org/wiki/Icebox_cookie"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Icebox cookie »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Icebox+cookie"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Icebox cookie »",
+      "url": "https://news.google.com/search?q=Icebox+cookie"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Beurre",
+    "Vanille",
+    "Cacao",
+    "Sucre"
+   ],
+   "date_prediction": "202604",
+   "historique": [
+    {
+     "mois": "202604",
+     "label": "Tendance durable",
+     "proba_tendance": 0.555
+    },
+    {
+     "mois": "202605",
+     "label": "Tendance durable",
+     "proba_tendance": 0.601
+    },
+    {
+     "mois": "202606",
+     "label": "Tendance durable",
+     "proba_tendance": 0.575
+    },
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.643
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.635
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.682
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.7
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "7 Up cake",
+   "group": "Desserts",
+   "t0": "202510",
+   "base": 0,
+   "record_24m": 88,
+   "ratio_now": 5.69,
+   "max_ratio": 7.05,
+   "jump_t0": 3.36,
+   "growth_since_t0": 1.7,
+   "volatility": 0.2,
+   "seasonality": 0.0,
+   "proba_tendance": 0.69,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202710",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "US",
+   "country_source": "origine",
+   "lat": 39.1094,
+   "lon": -76.8744,
+   "element_cle": "Le gâteau au citron-lime moelleux grâce au soda",
+   "veille": {
+    "resume": "Ce gâteau du Sud des États-Unis est remis en lumière par les recettes « vintage » et le soul food. Son glaçage citronné et sa mie dense font l'unanimité dans les commentaires.",
+    "sources": [
+     {
+      "titre": "Wikipédia : 7 Up cake",
+      "url": "https://en.wikipedia.org/wiki/7_Up_cake"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « 7 Up cake »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=7+Up+cake"
+     },
+     {
+      "titre": "Google Actualités : articles sur « 7 Up cake »",
+      "url": "https://news.google.com/search?q=7+Up+cake"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Citron",
+    "Lime",
+    "Beurre",
+    "Soda citron-lime"
+   ],
+   "date_prediction": "202605",
+   "historique": [
+    {
+     "mois": "202605",
+     "label": "Tendance durable",
+     "proba_tendance": 0.575
+    },
+    {
+     "mois": "202606",
+     "label": "Tendance durable",
+     "proba_tendance": 0.612
+    },
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.644
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.676
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.669
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.69
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Benzoin resin",
+   "group": "Olfactif",
+   "t0": "202510",
+   "base": 582,
+   "record_24m": 669,
+   "ratio_now": 4.33,
+   "max_ratio": 4.62,
+   "jump_t0": 2.45,
+   "growth_since_t0": 2.05,
+   "volatility": 0.07,
+   "seasonality": 0.46,
+   "proba_tendance": 0.681,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202710",
+   "exclu_raison": null,
+   "domaine": "Parfum",
+   "country": "GB",
+   "country_source": "aleatoire",
+   "lat": 51.1749,
+   "lon": -0.0223,
+   "element_cle": "La note balsamique, vanillée et chaude du benjoin",
+   "veille": {
+    "resume": "Le benjoin est cité dans les parfums ambrés et gourmands comme alternative naturelle à la vanille. Les passionnés le recherchent aussi en encens et en résine brute.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Benzoin resin",
+      "url": "https://en.wikipedia.org/wiki/Benzoin_resin"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Benzoin resin »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Benzoin+resin"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Benzoin resin »",
+      "url": "https://news.google.com/search?q=Benzoin+resin"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Benjoin du Siam",
+    "Vanilline",
+    "Acide benzoïque",
+    "Labdanum"
+   ],
+   "date_prediction": "202609",
+   "historique": [
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.841
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.681
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Β-Santalol",
+   "group": "Olfactif",
+   "t0": "202606",
+   "base": 150,
+   "record_24m": 168,
+   "ratio_now": 13.16,
+   "max_ratio": 19.26,
+   "jump_t0": 11.43,
+   "growth_since_t0": 1.22,
+   "volatility": 0.42,
+   "seasonality": 0.37,
+   "proba_tendance": 0.671,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202806",
+   "exclu_raison": null,
+   "domaine": "Parfum",
+   "country": "IN",
+   "country_source": "aleatoire",
+   "lat": 28.1152,
+   "lon": 77.4113,
+   "element_cle": "L'odeur crémeuse et boisée du bois de santal",
+   "veille": {
+    "resume": "Le principal composant olfactif du santal fait parler dans le contexte de la raréfaction du santal indien. Les marques mettent en avant les santals durables et les molécules de remplacement.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Β-Santalol",
+      "url": "https://en.wikipedia.org/wiki/%CE%92-Santalol"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Β-Santalol »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=%CE%92-Santalol"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Β-Santalol »",
+      "url": "https://news.google.com/search?q=%CE%92-Santalol"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Huile de santal",
+    "Santalum album",
+    "Santalum spicatum"
+   ],
+   "date_prediction": "202609",
+   "historique": [
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.819
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.671
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Ogiri",
+   "group": "Épices",
+   "t0": "202603",
+   "base": 464,
+   "record_24m": 605,
+   "ratio_now": 1.4,
+   "max_ratio": 1.65,
+   "jump_t0": 1.61,
+   "growth_since_t0": 0.95,
+   "volatility": 0.27,
+   "seasonality": -0.04,
+   "proba_tendance": 0.659,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202803",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "NG",
+   "country_source": "origine",
+   "lat": 9.0857,
+   "lon": 7.2671,
+   "element_cle": "L'umami puissant et fermenté des graines de sésame ou de melon",
+   "veille": {
+    "resume": "Ce condiment fermenté d'Afrique de l'Ouest gagne en visibilité avec l'intérêt pour les aliments fermentés et l'umami naturel. Les chefs le comparent au miso ou au fromage affiné.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Ogiri",
+      "url": "https://en.wikipedia.org/wiki/Ogiri"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Ogiri »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Ogiri"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Ogiri »",
+      "url": "https://news.google.com/search?q=Ogiri"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Graines de sésame",
+    "Graines de melon egusi",
+    "Sel"
+   ],
+   "date_prediction": "202606",
+   "historique": [
+    {
+     "mois": "202606",
+     "label": "Tendance durable",
+     "proba_tendance": 0.572
+    },
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.572
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.634
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.626
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.659
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Açai bowl",
+   "group": "Desserts",
+   "t0": "202510",
+   "base": 0,
+   "record_24m": 0,
+   "ratio_now": 164.91,
+   "max_ratio": 186.63,
+   "jump_t0": 569.33,
+   "growth_since_t0": 14.48,
+   "volatility": 0.43,
+   "seasonality": 0.0,
+   "proba_tendance": 0.647,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202710",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "BR",
+   "country_source": "origine",
+   "lat": -15.3933,
+   "lon": -47.7073,
+   "element_cle": "Le fruit pourpre mixé glacé au goût de baie et de cacao",
+   "veille": {
+    "resume": "Le bol d'açaï reste un incontournable des cafés healthy et des petits-déjeuners photogéniques. Les discussions portent sur sa teneur en sucre et les garnitures (granola, fruits frais).",
+    "sources": [
+     {
+      "titre": "Wikipédia : Açai bowl",
+      "url": "https://en.wikipedia.org/wiki/A%C3%A7ai_bowl"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Açai bowl »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=A%C3%A7ai+bowl"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Açai bowl »",
+      "url": "https://news.google.com/search?q=A%C3%A7ai+bowl"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Açaï",
+    "Banane",
+    "Granola",
+    "Miel"
+   ],
+   "date_prediction": "202601",
+   "historique": [
+    {
+     "mois": "202601",
+     "label": "Tendance durable",
+     "proba_tendance": 0.804
+    },
+    {
+     "mois": "202602",
+     "label": "Tendance durable",
+     "proba_tendance": 0.734
+    },
+    {
+     "mois": "202603",
+     "label": "Tendance durable",
+     "proba_tendance": 0.747
+    },
+    {
+     "mois": "202604",
+     "label": "Tendance durable",
+     "proba_tendance": 0.745
+    },
+    {
+     "mois": "202605",
+     "label": "Tendance durable",
+     "proba_tendance": 0.716
+    },
+    {
+     "mois": "202606",
+     "label": "Tendance durable",
+     "proba_tendance": 0.73
+    },
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.69
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.674
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.669
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.647
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Shahi tukra",
+   "group": "Desserts",
+   "t0": "202511",
+   "base": 0,
+   "record_24m": 0,
+   "ratio_now": 54.23,
+   "max_ratio": 54.23,
+   "jump_t0": 621.0,
+   "growth_since_t0": 4.37,
+   "volatility": 0.14,
+   "seasonality": 0.0,
+   "proba_tendance": 0.636,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202711",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "IN",
+   "country_source": "origine",
+   "lat": 28.7234,
+   "lon": 76.8574,
+   "element_cle": "Le pain frit imbibé de lait réduit à la cardamome et au safran",
+   "veille": {
+    "resume": "Ce dessert moghol royal est mis en avant dans les contenus sur la cuisine indienne de fête. On cite son parfum de cardamome, de safran et d'eau de rose.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Shahi tukra",
+      "url": "https://en.wikipedia.org/wiki/Shahi_tukra"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Shahi tukra »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Shahi+tukra"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Shahi tukra »",
+      "url": "https://news.google.com/search?q=Shahi+tukra"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Cardamome",
+    "Safran",
+    "Lait",
+    "Eau de rose"
+   ],
+   "date_prediction": "202603",
+   "historique": [
+    {
+     "mois": "202603",
+     "label": "Tendance durable",
+     "proba_tendance": 0.671
+    },
+    {
+     "mois": "202604",
+     "label": "Tendance durable",
+     "proba_tendance": 0.652
+    },
+    {
+     "mois": "202605",
+     "label": "Tendance durable",
+     "proba_tendance": 0.675
+    },
+    {
+     "mois": "202606",
+     "label": "Tendance durable",
+     "proba_tendance": 0.66
+    },
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.624
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.655
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.622
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.636
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Budapest roll",
+   "group": "Desserts",
+   "t0": "202604",
+   "base": 0,
+   "record_24m": 0,
+   "ratio_now": 10.03,
+   "max_ratio": 10.81,
+   "jump_t0": 212.33,
+   "growth_since_t0": 2.36,
+   "volatility": 0.12,
+   "seasonality": 0.0,
+   "proba_tendance": 0.627,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202804",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "SE",
+   "country_source": "origine",
+   "lat": 59.2715,
+   "lon": 18.3743,
+   "element_cle": "La meringue roulée à la noisette avec crème et mandarine",
+   "veille": {
+    "resume": "Ce roulé meringué suédois apparaît dans les tables de fika et les recettes de fêtes scandinaves. Sa texture croquante-moelleuse et sa garniture aux agrumes sont souvent citées.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Budapest roll",
+      "url": "https://en.wikipedia.org/wiki/Budapest_roll"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Budapest roll »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Budapest+roll"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Budapest roll »",
+      "url": "https://news.google.com/search?q=Budapest+roll"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Noisette",
+    "Meringue",
+    "Mandarine",
+    "Crème"
+   ],
+   "date_prediction": "202605",
+   "historique": [
+    {
+     "mois": "202605",
+     "label": "Tendance durable",
+     "proba_tendance": 0.546
+    },
+    {
+     "mois": "202606",
+     "label": "Tendance durable",
+     "proba_tendance": 0.575
+    },
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.549
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.591
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.625
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.627
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Matisia cordata",
+   "group": "Fruits tropicaux",
+   "t0": "202511",
+   "base": 4,
+   "record_24m": 10,
+   "ratio_now": 10.38,
+   "max_ratio": 11.01,
+   "jump_t0": 30.22,
+   "growth_since_t0": 2.24,
+   "volatility": 0.13,
+   "seasonality": 0.56,
+   "proba_tendance": 0.586,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202711",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "IN",
+   "country_source": "aleatoire",
+   "lat": 28.2064,
+   "lon": 77.6222,
+   "element_cle": "La chair orange au goût de mangue, de melon et de citrouille",
+   "veille": {
+    "resume": "Le sapote sud-américain attire l'attention des amateurs de fruits rares et des chefs latino-américains. Il est décrit comme doux, crémeux et très parfumé.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Matisia cordata",
+      "url": "https://en.wikipedia.org/wiki/Matisia_cordata"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Matisia cordata »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Matisia+cordata"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Matisia cordata »",
+      "url": "https://news.google.com/search?q=Matisia+cordata"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Sapote",
+    "Mangue",
+    "Melon"
+   ],
+   "date_prediction": "202603",
+   "historique": [
+    {
+     "mois": "202603",
+     "label": "Tendance durable",
+     "proba_tendance": 0.549
+    },
+    {
+     "mois": "202604",
+     "label": "Tendance durable",
+     "proba_tendance": 0.553
+    },
+    {
+     "mois": "202605",
+     "label": "Tendance durable",
+     "proba_tendance": 0.537
+    },
+    {
+     "mois": "202606",
+     "label": "Tendance durable",
+     "proba_tendance": 0.555
+    },
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.562
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.562
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.581
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.586
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Wafer paper",
+   "group": "Desserts",
+   "t0": "202510",
+   "base": 2,
+   "record_24m": 329,
+   "ratio_now": 2.14,
+   "max_ratio": 2.53,
+   "jump_t0": 1.83,
+   "growth_since_t0": 1.17,
+   "volatility": 0.14,
+   "seasonality": -0.34,
+   "proba_tendance": 0.573,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202710",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "BR",
+   "country_source": "aleatoire",
+   "lat": -15.8327,
+   "lon": -48.0919,
+   "element_cle": "La feuille comestible fine qui fond sur la langue",
+   "veille": {
+    "resume": "Le papier azyme est très présent chez les cake designers pour les fleurs et décors délicats. Les tutoriels de gâteaux d'anniversaire stylisés en font la promotion.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Wafer paper",
+      "url": "https://en.wikipedia.org/wiki/Wafer_paper"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Wafer paper »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Wafer+paper"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Wafer paper »",
+      "url": "https://news.google.com/search?q=Wafer+paper"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Fécule de pomme de terre",
+    "Amidon",
+    "Colorants alimentaires"
+   ],
+   "date_prediction": "202605",
+   "historique": [
+    {
+     "mois": "202605",
+     "label": "Tendance durable",
+     "proba_tendance": 0.545
+    },
+    {
+     "mois": "202606",
+     "label": "Tendance durable",
+     "proba_tendance": 0.586
+    },
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.588
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.59
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.593
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.573
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Char magaz",
+   "group": "Noix & graines",
+   "t0": "202606",
+   "base": 0,
+   "record_24m": 0,
+   "ratio_now": 30.73,
+   "max_ratio": 76.55,
+   "jump_t0": 81.0,
+   "growth_since_t0": 18.97,
+   "volatility": 1.13,
+   "seasonality": 0.0,
+   "proba_tendance": 0.552,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202806",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "IN",
+   "country_source": "origine",
+   "lat": 29.1583,
+   "lon": 77.6633,
+   "element_cle": "Le mélange de quatre graines de courge, melon, pastèque et concombre",
+   "veille": {
+    "resume": "Ce mélange indien de graines est mis en avant pour ses atouts nutritionnels dans les desserts et sauces. On le retrouve dans les recettes de thandai et de korma.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Char magaz",
+      "url": "https://en.wikipedia.org/wiki/Char_magaz"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Char magaz »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Char+magaz"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Char magaz »",
+      "url": "https://news.google.com/search?q=Char+magaz"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Graines de courge",
+    "Graines de melon",
+    "Graines de pastèque",
+    "Graines de concombre"
+   ],
+   "date_prediction": "202607",
+   "historique": [
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.59
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.598
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.588
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.552
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Zobo (drink)",
+   "group": "Boissons",
+   "t0": "202601",
+   "base": 0,
+   "record_24m": 0,
+   "ratio_now": 25.34,
+   "max_ratio": 25.34,
+   "jump_t0": 148.67,
+   "growth_since_t0": 8.52,
+   "volatility": 0.44,
+   "seasonality": 0.0,
+   "proba_tendance": 0.533,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202801",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "NG",
+   "country_source": "origine",
+   "lat": 8.8988,
+   "lon": 6.9867,
+   "element_cle": "L'acidité florale et rubis de l'hibiscus relevée de gingembre",
+   "veille": {
+    "resume": "La boisson nigériane à l'hibiscus profite de la popularité des boissons florales et sans alcool. Les recettes avec gingembre, ananas et clou de girofle se multiplient.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Zobo (drink)",
+      "url": "https://en.wikipedia.org/wiki/Zobo_%28drink%29"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Zobo (drink) »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Zobo+%28drink%29"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Zobo (drink) »",
+      "url": "https://news.google.com/search?q=Zobo+%28drink%29"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Fleur d'hibiscus",
+    "Gingembre",
+    "Ananas",
+    "Clou de girofle"
+   ],
+   "date_prediction": "202602",
+   "historique": [
+    {
+     "mois": "202602",
+     "label": "Tendance durable",
+     "proba_tendance": 0.556
+    },
+    {
+     "mois": "202603",
+     "label": "Tendance durable",
+     "proba_tendance": 0.552
+    },
+    {
+     "mois": "202604",
+     "label": "Tendance durable",
+     "proba_tendance": 0.524
+    },
+    {
+     "mois": "202605",
+     "label": "Tendance durable",
+     "proba_tendance": 0.558
+    },
+    {
+     "mois": "202606",
+     "label": "Tendance durable",
+     "proba_tendance": 0.546
+    },
+    {
+     "mois": "202607",
+     "label": "Tendance durable",
+     "proba_tendance": 0.544
+    },
+    {
+     "mois": "202608",
+     "label": "Tendance durable",
+     "proba_tendance": 0.521
+    },
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.523
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.533
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Shebakia",
+   "group": "Desserts",
+   "t0": "202510",
+   "base": 0,
+   "record_24m": 258,
+   "ratio_now": 4.51,
+   "max_ratio": 4.51,
+   "jump_t0": 1.78,
+   "growth_since_t0": 2.54,
+   "volatility": 0.53,
+   "seasonality": 0.0,
+   "proba_tendance": 0.525,
+   "label": "Tendance durable",
+   "verdict_verifiable_le": "202710",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "MA",
+   "country_source": "origine",
+   "lat": 33.58,
+   "lon": -6.5038,
+   "element_cle": "La fleur de pâte au sésame frite et enrobée de miel",
+   "veille": {
+    "resume": "Ces gâteaux marocains au miel et au sésame sont très partagés pendant le ramadan. Leur parfum d'anis, de safran et de fleur d'oranger est souvent mis en avant.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Shebakia",
+      "url": "https://en.wikipedia.org/wiki/Shebakia"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Shebakia »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Shebakia"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Shebakia »",
+      "url": "https://news.google.com/search?q=Shebakia"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Miel",
+    "Sésame",
+    "Anis vert",
+    "Eau de fleur d'oranger"
+   ],
+   "date_prediction": "202609",
+   "historique": [
+    {
+     "mois": "202609",
+     "label": "Tendance durable",
+     "proba_tendance": 0.51
+    },
+    {
+     "mois": "202610",
+     "label": "Tendance durable",
+     "proba_tendance": 0.525
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Rijstevlaai",
+   "group": "Desserts",
+   "t0": "202512",
+   "base": 522,
+   "record_24m": 604,
+   "ratio_now": 0.86,
+   "max_ratio": 1.53,
+   "jump_t0": 1.39,
+   "growth_since_t0": 0.63,
+   "volatility": 0.4,
+   "seasonality": 0.24,
+   "proba_tendance": 0.489,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202712",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "NL",
+   "country_source": "origine",
+   "lat": 52.6785,
+   "lon": 5.1709,
+   "element_cle": "Le flan crémeux au riz au lait dans une pâte levée",
+   "veille": {
+    "resume": "La tarte au riz du Limbourg est citée dans les contenus régionaux néerlandais et belges. Elle est appréciée pour sa garniture crémeuse, mais reste très locale.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Rijstevlaai",
+      "url": "https://en.wikipedia.org/wiki/Rijstevlaai"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Rijstevlaai »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Rijstevlaai"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Rijstevlaai »",
+      "url": "https://news.google.com/search?q=Rijstevlaai"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Riz",
+    "Lait",
+    "Vanille",
+    "Œuf"
+   ],
+   "date_prediction": "202601",
+   "historique": [
+    {
+     "mois": "202601",
+     "label": "Buzz",
+     "proba_tendance": 0.402
+    },
+    {
+     "mois": "202602",
+     "label": "Buzz",
+     "proba_tendance": 0.406
+    },
+    {
+     "mois": "202603",
+     "label": "Buzz",
+     "proba_tendance": 0.402
+    },
+    {
+     "mois": "202604",
+     "label": "Buzz",
+     "proba_tendance": 0.446
+    },
+    {
+     "mois": "202605",
+     "label": "Buzz",
+     "proba_tendance": 0.424
+    },
+    {
+     "mois": "202606",
+     "label": "Buzz",
+     "proba_tendance": 0.436
+    },
+    {
+     "mois": "202607",
+     "label": "Buzz",
+     "proba_tendance": 0.443
+    },
+    {
+     "mois": "202608",
+     "label": "Buzz",
+     "proba_tendance": 0.442
+    },
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.473
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.489
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Gazoza",
+   "group": "Boissons",
+   "t0": "202510",
+   "base": 0,
+   "record_24m": 478,
+   "ratio_now": 0.61,
+   "max_ratio": 1.47,
+   "jump_t0": 1.47,
+   "growth_since_t0": 0.41,
+   "volatility": 0.61,
+   "seasonality": 0.0,
+   "proba_tendance": 0.417,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202710",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "IT",
+   "country_source": "aleatoire",
+   "lat": 42.4613,
+   "lon": 11.9652,
+   "element_cle": "Le soda pétillant légèrement citronné à l'ancienne",
+   "veille": {
+    "resume": "La limonade traditionnelle grecque et turque profite de la mode des sodas rétro. L'intérêt reste centré sur la nostalgie et les marques locales.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Gazoza",
+      "url": "https://en.wikipedia.org/wiki/Gazoza"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Gazoza »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Gazoza"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Gazoza »",
+      "url": "https://news.google.com/search?q=Gazoza"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Citron",
+    "Sucre",
+    "Eau gazeuse"
+   ],
+   "date_prediction": "202607",
+   "historique": [
+    {
+     "mois": "202607",
+     "label": "Buzz",
+     "proba_tendance": 0.326
+    },
+    {
+     "mois": "202608",
+     "label": "Buzz",
+     "proba_tendance": 0.34
+    },
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.394
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.417
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Crisp (dessert)",
+   "group": "Desserts",
+   "t0": "202510",
+   "base": 266,
+   "record_24m": 433,
+   "ratio_now": 0.78,
+   "max_ratio": 1.51,
+   "jump_t0": 1.51,
+   "growth_since_t0": 0.52,
+   "volatility": 0.59,
+   "seasonality": -0.6,
+   "proba_tendance": 0.415,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202710",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "US",
+   "country_source": "origine",
+   "lat": 39.2429,
+   "lon": -76.9082,
+   "element_cle": "Le contraste entre fruits fondants et croûte croustillante à l'avoine",
+   "veille": {
+    "resume": "Le crisp aux fruits revient avec les desserts réconfortants d'automne. Les recettes pomme-cannelle et fruits rouges dominent.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Crisp (dessert)",
+      "url": "https://en.wikipedia.org/wiki/Crisp_%28dessert%29"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Crisp (dessert) »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Crisp+%28dessert%29"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Crisp (dessert) »",
+      "url": "https://news.google.com/search?q=Crisp+%28dessert%29"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Pomme",
+    "Flocons d'avoine",
+    "Cannelle",
+    "Beurre"
+   ],
+   "date_prediction": "202606",
+   "historique": [
+    {
+     "mois": "202606",
+     "label": "Buzz",
+     "proba_tendance": 0.468
+    },
+    {
+     "mois": "202607",
+     "label": "Buzz",
+     "proba_tendance": 0.475
+    },
+    {
+     "mois": "202608",
+     "label": "Buzz",
+     "proba_tendance": 0.427
+    },
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.41
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.415
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Platonia",
+   "group": "Fruits tropicaux",
+   "t0": "202605",
+   "base": 452,
+   "record_24m": 624,
+   "ratio_now": 0.64,
+   "max_ratio": 1.57,
+   "jump_t0": 1.51,
+   "growth_since_t0": 0.51,
+   "volatility": 0.47,
+   "seasonality": 0.35,
+   "proba_tendance": 0.386,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202805",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "BR",
+   "country_source": "origine",
+   "lat": -15.219,
+   "lon": -47.4287,
+   "element_cle": "La pulpe blanche acidulée et très parfumée du bacuri",
+   "veille": {
+    "resume": "Le bacuri d'Amazonie est cité dans les glaces et jus artisanaux brésiliens. Il reste confidentiel hors du nord du Brésil.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Platonia",
+      "url": "https://en.wikipedia.org/wiki/Platonia"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Platonia »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Platonia"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Platonia »",
+      "url": "https://news.google.com/search?q=Platonia"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Bacuri",
+    "Sucre",
+    "Lait"
+   ],
+   "date_prediction": "202609",
+   "historique": [
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.464
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.386
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Nevzine tatlısı",
+   "group": "Desserts",
+   "t0": "202603",
+   "base": 170,
+   "record_24m": 419,
+   "ratio_now": 0.71,
+   "max_ratio": 1.47,
+   "jump_t0": 1.47,
+   "growth_since_t0": 0.48,
+   "volatility": 0.52,
+   "seasonality": 0.69,
+   "proba_tendance": 0.315,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202803",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "TR",
+   "country_source": "origine",
+   "lat": 39.6837,
+   "lon": 33.2399,
+   "element_cle": "Le gâteau sirupeux au tahini et à la noix",
+   "veille": {
+    "resume": "Ce dessert turc au tahini apparaît dans les recettes de fêtes. Il reste peu connu en dehors de la Turquie.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Nevzine tatlısı",
+      "url": "https://en.wikipedia.org/wiki/Nevzine_tatl%C4%B1s%C4%B1"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Nevzine tatlısı »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Nevzine+tatl%C4%B1s%C4%B1"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Nevzine tatlısı »",
+      "url": "https://news.google.com/search?q=Nevzine+tatl%C4%B1s%C4%B1"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Tahini",
+    "Noix",
+    "Sirop de sucre",
+    "Semoule"
+   ],
+   "date_prediction": "202607",
+   "historique": [
+    {
+     "mois": "202607",
+     "label": "Buzz",
+     "proba_tendance": 0.195
+    },
+    {
+     "mois": "202608",
+     "label": "Buzz",
+     "proba_tendance": 0.249
+    },
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.258
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.315
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Sweet chestnut",
+   "group": "Noix & graines",
+   "t0": "202510",
+   "base": 482,
+   "record_24m": 6037,
+   "ratio_now": 0.64,
+   "max_ratio": 1.57,
+   "jump_t0": 1.53,
+   "growth_since_t0": 0.44,
+   "volatility": 0.58,
+   "seasonality": -0.21,
+   "proba_tendance": 0.268,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202710",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "ES",
+   "country_source": "aleatoire",
+   "lat": 40.6894,
+   "lon": -3.3808,
+   "element_cle": "La saveur douce, farineuse et légèrement fumée de la châtaigne",
+   "veille": {
+    "resume": "La châtaigne fait parler chaque automne avec les marrons chauds et la crème de marrons. L'intérêt est fortement saisonnier.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Sweet chestnut",
+      "url": "https://en.wikipedia.org/wiki/Sweet_chestnut"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Sweet chestnut »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Sweet+chestnut"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Sweet chestnut »",
+      "url": "https://news.google.com/search?q=Sweet+chestnut"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Châtaigne",
+    "Crème de marrons",
+    "Farine de châtaigne"
+   ],
+   "date_prediction": "202605",
+   "historique": [
+    {
+     "mois": "202605",
+     "label": "Buzz",
+     "proba_tendance": 0.381
+    },
+    {
+     "mois": "202606",
+     "label": "Buzz",
+     "proba_tendance": 0.363
+    },
+    {
+     "mois": "202607",
+     "label": "Buzz",
+     "proba_tendance": 0.348
+    },
+    {
+     "mois": "202608",
+     "label": "Buzz",
+     "proba_tendance": 0.289
+    },
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.32
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.268
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Chirote",
+   "group": "Desserts",
+   "t0": "202510",
+   "base": 0,
+   "record_24m": 332,
+   "ratio_now": 1.15,
+   "max_ratio": 2.88,
+   "jump_t0": 2.59,
+   "growth_since_t0": 0.44,
+   "volatility": 0.7,
+   "seasonality": 0.0,
+   "proba_tendance": 0.142,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202710",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "IN",
+   "country_source": "origine",
+   "lat": 28.0813,
+   "lon": 77.8056,
+   "element_cle": "La pâtisserie feuilletée frite saupoudrée de sucre et de cardamome",
+   "veille": {
+    "resume": "Ce feuilleté du Maharashtra et du Karnataka apparaît surtout au moment des mariages et des fêtes. La curiosité retombe vite après les périodes festives.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Chirote",
+      "url": "https://en.wikipedia.org/wiki/Chirote"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Chirote »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Chirote"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Chirote »",
+      "url": "https://news.google.com/search?q=Chirote"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Farine de blé",
+    "Ghee",
+    "Cardamome",
+    "Sucre"
+   ],
+   "date_prediction": "202609",
+   "historique": [
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.018
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.142
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Ensete",
+   "group": "Fruits tropicaux",
+   "t0": "202511",
+   "base": 1027,
+   "record_24m": 1131,
+   "ratio_now": 0.77,
+   "max_ratio": 1.66,
+   "jump_t0": 1.75,
+   "growth_since_t0": 0.46,
+   "volatility": 0.72,
+   "seasonality": 0.34,
+   "proba_tendance": 0.138,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202711",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "ET",
+   "country_source": "origine",
+   "lat": 9.0571,
+   "lon": 38.8563,
+   "element_cle": "La fécule fermentée du faux bananier",
+   "veille": {
+    "resume": "Le faux bananier éthiopien a été cité dans des articles sur les cultures résistantes au climat. L'intérêt reste porté par l'actualité scientifique.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Ensete",
+      "url": "https://en.wikipedia.org/wiki/Ensete"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Ensete »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Ensete"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Ensete »",
+      "url": "https://news.google.com/search?q=Ensete"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Ensete",
+    "Fécule",
+    "Levain"
+   ],
+   "date_prediction": "202603",
+   "historique": [
+    {
+     "mois": "202603",
+     "label": "Buzz",
+     "proba_tendance": 0.268
+    },
+    {
+     "mois": "202604",
+     "label": "Buzz",
+     "proba_tendance": 0.255
+    },
+    {
+     "mois": "202605",
+     "label": "Buzz",
+     "proba_tendance": 0.217
+    },
+    {
+     "mois": "202606",
+     "label": "Buzz",
+     "proba_tendance": 0.214
+    },
+    {
+     "mois": "202607",
+     "label": "Buzz",
+     "proba_tendance": 0.191
+    },
+    {
+     "mois": "202608",
+     "label": "Buzz",
+     "proba_tendance": 0.195
+    },
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.168
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.138
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Solanum centrale",
+   "group": "Épices",
+   "t0": "202604",
+   "base": 524,
+   "record_24m": 633,
+   "ratio_now": 0.79,
+   "max_ratio": 4.0,
+   "jump_t0": 4.9,
+   "growth_since_t0": 0.2,
+   "volatility": 1.38,
+   "seasonality": 0.11,
+   "proba_tendance": 0.112,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202804",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "AU",
+   "country_source": "origine",
+   "lat": -35.2294,
+   "lon": 149.3239,
+   "element_cle": "Le goût de tomate séchée, caramel et tamarin du raisin du désert",
+   "veille": {
+    "resume": "La tomate du bush australien est mise en avant dans les contenus sur les aliments autochtones. L'engouement reste lié à quelques chefs et émissions culinaires.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Solanum centrale",
+      "url": "https://en.wikipedia.org/wiki/Solanum_centrale"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Solanum centrale »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Solanum+centrale"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Solanum centrale »",
+      "url": "https://news.google.com/search?q=Solanum+centrale"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Kutjera",
+    "Tomate séchée",
+    "Tamarin"
+   ],
+   "date_prediction": "202606",
+   "historique": [
+    {
+     "mois": "202606",
+     "label": "Buzz",
+     "proba_tendance": 0.253
+    },
+    {
+     "mois": "202607",
+     "label": "Buzz",
+     "proba_tendance": 0.204
+    },
+    {
+     "mois": "202608",
+     "label": "Buzz",
+     "proba_tendance": 0.162
+    },
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.123
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.112
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Diplomat pudding",
+   "group": "Desserts",
+   "t0": "202510",
+   "base": 828,
+   "record_24m": 1132,
+   "ratio_now": 1.08,
+   "max_ratio": 2.34,
+   "jump_t0": 2.2,
+   "growth_since_t0": 0.49,
+   "volatility": 0.71,
+   "seasonality": 0.44,
+   "proba_tendance": 0.107,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202710",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "FR",
+   "country_source": "origine",
+   "lat": 48.5888,
+   "lon": 2.3268,
+   "element_cle": "La crème diplomate vanillée mêlée de biscuits et de fruits confits",
+   "veille": {
+    "resume": "Ce dessert classique revient ponctuellement dans les émissions de pâtisserie. L'intérêt retombe une fois l'épisode diffusé.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Diplomat pudding",
+      "url": "https://en.wikipedia.org/wiki/Diplomat_pudding"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Diplomat pudding »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Diplomat+pudding"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Diplomat pudding »",
+      "url": "https://news.google.com/search?q=Diplomat+pudding"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Vanille",
+    "Crème",
+    "Fruits confits",
+    "Biscuit cuillère"
+   ],
+   "date_prediction": "202601",
+   "historique": [
+    {
+     "mois": "202601",
+     "label": "Buzz",
+     "proba_tendance": 0.025
+    },
+    {
+     "mois": "202602",
+     "label": "Buzz",
+     "proba_tendance": 0.071
+    },
+    {
+     "mois": "202603",
+     "label": "Buzz",
+     "proba_tendance": 0.058
+    },
+    {
+     "mois": "202604",
+     "label": "Buzz",
+     "proba_tendance": 0.08
+    },
+    {
+     "mois": "202605",
+     "label": "Buzz",
+     "proba_tendance": 0.071
+    },
+    {
+     "mois": "202606",
+     "label": "Buzz",
+     "proba_tendance": 0.085
+    },
+    {
+     "mois": "202607",
+     "label": "Buzz",
+     "proba_tendance": 0.111
+    },
+    {
+     "mois": "202608",
+     "label": "Buzz",
+     "proba_tendance": 0.092
+    },
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.085
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.107
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Advantame",
+   "group": "Arômes & sucre",
+   "t0": "202604",
+   "base": 633,
+   "record_24m": 874,
+   "ratio_now": 1.38,
+   "max_ratio": 4.27,
+   "jump_t0": 4.6,
+   "growth_since_t0": 0.4,
+   "volatility": 0.92,
+   "seasonality": -0.14,
+   "proba_tendance": 0.078,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202804",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "JP",
+   "country_source": "origine",
+   "lat": 35.4572,
+   "lon": 139.8397,
+   "element_cle": "La puissance sucrante extrême sans arrière-goût",
+   "veille": {
+    "resume": "Cet édulcorant intense a fait parler lors de débats sur les édulcorants et la santé. La discussion reste réglementaire et peu grand public.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Advantame",
+      "url": "https://en.wikipedia.org/wiki/Advantame"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Advantame »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Advantame"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Advantame »",
+      "url": "https://news.google.com/search?q=Advantame"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Aspartame",
+    "Vanilline"
+   ],
+   "date_prediction": "202610",
+   "historique": [
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.078
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Nesselrode pudding",
+   "group": "Desserts",
+   "t0": "202602",
+   "base": 0,
+   "record_24m": 0,
+   "ratio_now": 7.27,
+   "max_ratio": 200.65,
+   "jump_t0": 9831.0,
+   "growth_since_t0": 0.04,
+   "volatility": 1.89,
+   "seasonality": 0.0,
+   "proba_tendance": 0.049,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202802",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "DE",
+   "country_source": "aleatoire",
+   "lat": 51.99,
+   "lon": 13.0712,
+   "element_cle": "La crème glacée à la purée de marron et aux fruits confits",
+   "veille": {
+    "resume": "Ce dessert du XIXe siècle a refait surface dans des contenus historiques sur la cuisine russe et française. Le pic est lié à une mention ponctuelle.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Nesselrode pudding",
+      "url": "https://en.wikipedia.org/wiki/Nesselrode_pudding"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Nesselrode pudding »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Nesselrode+pudding"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Nesselrode pudding »",
+      "url": "https://news.google.com/search?q=Nesselrode+pudding"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Châtaigne",
+    "Fruits confits",
+    "Crème",
+    "Marasquin"
+   ],
+   "date_prediction": "202610",
+   "historique": [
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.049
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Burry's",
+   "group": "Desserts",
+   "t0": "202511",
+   "base": 454,
+   "record_24m": 694,
+   "ratio_now": 0.68,
+   "max_ratio": 1.74,
+   "jump_t0": 3.04,
+   "growth_since_t0": 0.39,
+   "volatility": 1.05,
+   "seasonality": 0.68,
+   "proba_tendance": 0.047,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202711",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "US",
+   "country_source": "origine",
+   "lat": 39.1559,
+   "lon": -77.205,
+   "element_cle": "Le biscuit sablé vanillé de marque américaine",
+   "veille": {
+    "resume": "La marque historique de biscuits a été citée dans des contenus nostalgiques. L'intérêt reste ponctuel.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Burry's",
+      "url": "https://en.wikipedia.org/wiki/Burry%27s"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Burry's »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Burry%27s"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Burry's »",
+      "url": "https://news.google.com/search?q=Burry%27s"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Farine de blé",
+    "Vanille",
+    "Beurre"
+   ],
+   "date_prediction": "202607",
+   "historique": [
+    {
+     "mois": "202607",
+     "label": "Buzz",
+     "proba_tendance": 0.138
+    },
+    {
+     "mois": "202608",
+     "label": "Buzz",
+     "proba_tendance": 0.092
+    },
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.098
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.047
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Tagatose",
+   "group": "Arômes & sucre",
+   "t0": "202601",
+   "base": 1126,
+   "record_24m": 2346,
+   "ratio_now": 0.62,
+   "max_ratio": 2.2,
+   "jump_t0": 3.61,
+   "growth_since_t0": 0.32,
+   "volatility": 1.02,
+   "seasonality": 0.07,
+   "proba_tendance": 0.046,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202801",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "ES",
+   "country_source": "aleatoire",
+   "lat": 40.3679,
+   "lon": -3.7547,
+   "element_cle": "Le sucre rare au goût proche du saccharose, moins calorique",
+   "veille": {
+    "resume": "Le tagatose a fait parler dans les articles sur les sucres alternatifs. L'enthousiasme retombe face au prix et à la disponibilité limitée.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Tagatose",
+      "url": "https://en.wikipedia.org/wiki/Tagatose"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Tagatose »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Tagatose"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Tagatose »",
+      "url": "https://news.google.com/search?q=Tagatose"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Lactose",
+    "Galactose",
+    "Sucre"
+   ],
+   "date_prediction": "202607",
+   "historique": [
+    {
+     "mois": "202607",
+     "label": "Buzz",
+     "proba_tendance": 0.163
+    },
+    {
+     "mois": "202608",
+     "label": "Buzz",
+     "proba_tendance": 0.119
+    },
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.066
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.046
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Brown Betty (dessert)",
+   "group": "Desserts",
+   "t0": "202510",
+   "base": 3616,
+   "record_24m": 6076,
+   "ratio_now": 0.34,
+   "max_ratio": 1.51,
+   "jump_t0": 1.58,
+   "growth_since_t0": 0.22,
+   "volatility": 1.07,
+   "seasonality": 0.21,
+   "proba_tendance": 0.043,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202710",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "US",
+   "country_source": "origine",
+   "lat": 38.4917,
+   "lon": -76.5643,
+   "element_cle": "La pomme fondante sous une couche de chapelure beurrée à la cannelle",
+   "veille": {
+    "resume": "Ce dessert américain d'antan revient surtout dans les recettes d'automne. Il reste un intérêt saisonnier et nostalgique.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Brown Betty (dessert)",
+      "url": "https://en.wikipedia.org/wiki/Brown_Betty_%28dessert%29"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Brown Betty (dessert) »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Brown+Betty+%28dessert%29"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Brown Betty (dessert) »",
+      "url": "https://news.google.com/search?q=Brown+Betty+%28dessert%29"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Pomme",
+    "Cannelle",
+    "Chapelure",
+    "Beurre"
+   ],
+   "date_prediction": "202607",
+   "historique": [
+    {
+     "mois": "202607",
+     "label": "Buzz",
+     "proba_tendance": 0.197
+    },
+    {
+     "mois": "202608",
+     "label": "Buzz",
+     "proba_tendance": 0.153
+    },
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.1
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.043
+    }
+   ],
+   "demo_fictif": true
+  },
+  {
+   "title": "Thekua",
+   "group": "Desserts",
+   "t0": "202510",
+   "base": 1562,
+   "record_24m": 6301,
+   "ratio_now": 0.14,
+   "max_ratio": 1.44,
+   "jump_t0": 3.37,
+   "growth_since_t0": 0.1,
+   "volatility": 1.37,
+   "seasonality": 0.98,
+   "proba_tendance": 0.005,
+   "label": "Buzz",
+   "verdict_verifiable_le": "202710",
+   "exclu_raison": null,
+   "domaine": "Goût",
+   "country": "IN",
+   "country_source": "origine",
+   "lat": 28.1149,
+   "lon": 77.0564,
+   "element_cle": "Le biscuit croquant au jaggery et à la noix de coco",
+   "veille": {
+    "resume": "Le thekua est très recherché pendant la fête de Chhath au Bihar. La curiosité retombe dès la fin de la fête.",
+    "sources": [
+     {
+      "titre": "Wikipédia : Thekua",
+      "url": "https://en.wikipedia.org/wiki/Thekua"
+     },
+     {
+      "titre": "Google Trends : intérêt de recherche pour « Thekua »",
+      "url": "https://trends.google.com/trends/explore?date=today%2012-m&q=Thekua"
+     },
+     {
+      "titre": "Google Actualités : articles sur « Thekua »",
+      "url": "https://news.google.com/search?q=Thekua"
+     }
+    ]
+   },
+   "matieres_premieres": [
+    "Jaggery",
+    "Farine de blé",
+    "Noix de coco",
+    "Fenouil"
+   ],
+   "date_prediction": "202603",
+   "historique": [
+    {
+     "mois": "202603",
+     "label": "Buzz",
+     "proba_tendance": 0.053
+    },
+    {
+     "mois": "202604",
+     "label": "Buzz",
+     "proba_tendance": 0.079
+    },
+    {
+     "mois": "202605",
+     "label": "Buzz",
+     "proba_tendance": 0.084
+    },
+    {
+     "mois": "202606",
+     "label": "Buzz",
+     "proba_tendance": 0.016
+    },
+    {
+     "mois": "202607",
+     "label": "Buzz",
+     "proba_tendance": 0.018
+    },
+    {
+     "mois": "202608",
+     "label": "Buzz",
+     "proba_tendance": 0.046
+    },
+    {
+     "mois": "202609",
+     "label": "Buzz",
+     "proba_tendance": 0.02
+    },
+    {
+     "mois": "202610",
+     "label": "Buzz",
+     "proba_tendance": 0.005
+    }
+   ],
+   "demo_fictif": true
+  }
+ ]
+}

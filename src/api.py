@@ -9,6 +9,7 @@ Mise à jour du scan :
     0 = désactivé), l'API vérifie s'il existe un scan pour le dernier mois complet et
     le lance s'il manque.  Ex. : SCAN_AUTO_HOURS=6 uvicorn src.api:app
 """
+import json
 import math
 import os
 import re
@@ -41,6 +42,10 @@ GROUPS = sorted(set(GRP.values()))
 _T = pd.read_csv(TRAIN_CSV)
 MEDIANS = {lab: _T[_T.label == lab][FEATURES[1:]].median().round(2).to_dict()
            for lab in ('Buzz', 'Tendance durable')}
+
+# ---------- Démo ----------
+DEMO_JSON = ROOT / 'data' / 'demo_scan.json'
+DEMO_MODE = os.getenv('DEMO_MODE', '1') != '0'
 
 # ---------- Scan en arrière-plan ----------
 SCAN_AUTO_HOURS = float(os.getenv('SCAN_AUTO_HOURS', '24'))
@@ -287,7 +292,12 @@ def scan_status():
 
 @app.get('/scan/latest')
 def scan_latest():
-    """Contenu du scan le plus récent (outputs/scan_AAAAMM.csv)."""
+    """Contenu du scan le plus récent.
+    Mode démo (défaut, si data/demo_scan.json existe) : scan d'octobre 2026 enrichi de
+    champs FICTIFS (pays, veille, historique…), toujours identique. DEMO_MODE=0 pour
+    servir le vrai dernier scan (outputs/scan_AAAAMM.csv)."""
+    if DEMO_MODE and DEMO_JSON.exists():
+        return json.loads(DEMO_JSON.read_text(encoding='utf-8'))
     files = sorted(OUT_DIR.glob('scan_*.csv'))
     if not files:
         raise HTTPException(404, "Aucun scan disponible : lancer python src/scan.py")
