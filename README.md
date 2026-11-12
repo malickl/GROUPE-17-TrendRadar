@@ -30,6 +30,7 @@ Les tests se lancent avec `pytest -q`.
 |---|---|
 | `src/features.py` | Calcul commun des variables, utilisé partout. Ne jamais recoder ces variables ailleurs. |
 | `src/train.py` | Entraînement du modèle. Produit `models/model_v1.joblib` et `models/report_v1.md`. |
+| `src/validate.py` | Validation sur 30 cas de référence. Produit `data/reference_30.csv` et `models/validation_30.md`. |
 | `src/scan.py` | Scan de Wikipédia. Produit `outputs/scan_AAAAMM.csv`. |
 | `src/api.py` | L'API FastAPI. |
 | `web/index.html` | L'interface de démo, servie sur `/ui`. |
@@ -44,6 +45,7 @@ Les tests se lancent avec `pytest -q`.
 ```bash
 python src/features.py                              # vérifie que les variables sont reproduites (175/175)
 python src/train.py                                 # réentraîne le modèle (~1 min)
+python src/validate.py                              # validation sur 30 cas de référence
 python src/scan.py                                  # nouveau scan à partir de Wikipédia
 python src/scan.py --asof 202312 --offline --check  # contrôle sur 2023, sans réseau
 ```

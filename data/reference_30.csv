@@ -1,0 +1,31 @@
+title,group,t0,label,proba_tendance,prediction,correct
+Cyclamate,Arômes & sucre,202201,Tendance durable,0.506,Tendance durable,True
+Aspartame,Arômes & sucre,202306,Buzz,0.173,Buzz,True
+Synsepalum dulcificum,Arômes & sucre,202304,Buzz,0.096,Buzz,True
+Bunchosia glandulifera,Fruits tropicaux,202005,Tendance durable,0.743,Tendance durable,True
+Ensete ventricosum,Fruits tropicaux,202201,Buzz,0.066,Buzz,True
+Solanum pimpinellifolium,Fruits tropicaux,202005,Tendance durable,0.697,Tendance durable,True
+Basil seed,Noix & graines,202305,Tendance durable,0.889,Tendance durable,True
+Bazzini,Noix & graines,202206,Buzz,0.534,Tendance durable,False
+Brazil nut,Noix & graines,202111,Buzz,0.05,Buzz,True
+Lilial,Olfactif,202201,Buzz,0.448,Buzz,True
+Phenylacetic acid,Arômes & sucre,202304,Tendance durable,0.574,Tendance durable,True
+Alligator pepper,Épices,202004,Buzz,0.796,Tendance durable,False
+Shikanji,Boissons,202304,Buzz,0.744,Tendance durable,False
+Nigella sativa,Épices,202003,Buzz,0.377,Buzz,True
+Rosa × damascena,Épices,202005,Tendance durable,0.433,Buzz,False
+Uzazi,Épices,202004,Tendance durable,0.131,Buzz,False
+Perilla frutescens,Noix & graines,202005,Tendance durable,0.541,Tendance durable,True
+Crataegus mexicana,Fruits tropicaux,202312,Buzz,0.019,Buzz,True
+Solanum sessiliflorum,Fruits tropicaux,202211,Tendance durable,0.672,Tendance durable,True
+Twisted doughnut,Desserts,202004,Tendance durable,0.609,Tendance durable,True
+Sherbet (frozen dessert),Desserts,202108,Tendance durable,0.394,Buzz,False
+London bun,Desserts,202302,Buzz,0.232,Buzz,True
+Ambrein,Olfactif,202106,Tendance durable,0.914,Tendance durable,True
+3-Octanone,Olfactif,202301,Buzz,0.154,Buzz,True
+Safrole,Olfactif,202309,Tendance durable,0.766,Tendance durable,True
+Pine oil,Olfactif,202003,Buzz,0.477,Buzz,True
+Lamington,Desserts,202308,Buzz,0.507,Tendance durable,False
+Canned tea,Boissons,202310,Buzz,0.487,Buzz,True
+Champús,Boissons,202108,Tendance durable,0.329,Buzz,False
+Crodino,Boissons,202208,Tendance durable,0.539,Tendance durable,True

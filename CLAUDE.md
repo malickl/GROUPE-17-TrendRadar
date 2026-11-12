@@ -40,6 +40,7 @@
 - Orange, Leave one out, k = 4 : Gradient Boosting 81 % (AUC 0,88), Random Forest 80 % (AUC 0,87).
 - scikit-learn, 10 plis × 5 répétitions : Random Forest 82 % (AUC 0,89).
 - Marge d'erreur avec 175 cas : environ ±6 points.
+- Validation sur 30 cas de référence (`src/validate.py` → `data/reference_30.csv`, `models/validation_30.md`) : 15 Tendance + 15 Buzz tirés au hasard (graine 2026), prédits hors entraînement (10 plis). Résultat : 73 %, AUC 0,77 (seuils fixés avant : 75 % / 0,80, non atteints). Échantillon trop petit (±15 points) : la mesure fiable reste celle sur les 175 cas (82 %, AUC 0,88). Ne pas retirer au sort ni changer les seuils après coup. Le modèle actuel est présenté comme « V2 » au livrable du jeudi 12 ; les fichiers gardent le nom `v1`.
 
 ---
 
