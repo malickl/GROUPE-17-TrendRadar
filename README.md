@@ -39,6 +39,7 @@ Les tests se lancent avec `pytest -q`.
 | `models/` | Le modèle entraîné, livré pour ne pas avoir à le réentraîner. |
 | `outputs/` | Les résultats de scan. `/scan/latest` sert le plus récent. |
 | `CLAUDE.md` | Contexte complet du projet : définitions, choix et limites. |
+| `docs/ARCHITECTURE.md` | Architecture du projet : rôle de chaque dossier et enchaînement des fichiers. |
 
 ## Commandes utiles
 
