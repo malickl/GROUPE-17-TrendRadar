@@ -40,6 +40,7 @@ Les tests se lancent avec `pytest -q`.
 | `outputs/` | Les résultats de scan. `/scan/latest` sert le plus récent. |
 | `CLAUDE.md` | Contexte complet du projet : définitions, choix et limites. |
 | `docs/ARCHITECTURE.md` | Architecture du projet : rôle de chaque dossier et enchaînement des fichiers. |
+| `docs/LIVRABLE_VENDREDI.md` | Livrable du vendredi : reproduction des résultats, comparaison V1/V2, limites et biais. |
 
 ## Commandes utiles
 
